@@ -1,0 +1,46 @@
+Rave cue sheet
+
+Engine: Rave (best of all)
+Tempo 126.0 BPM, key C# (3B), length 153s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 246s
+
+Songs:
+  1. Galantis - Runaway (U & I) [base]: 126.0 BPM C# (3B) -> x1.000, +0 st; chorus at bar 44
+  2. Peking Duk - Fire: 100.0 BPM C#m (12A) -> x1.260, -3 st; chorus at bar 77
+
+Arrangement:
+  0:00.0   4 bars  Intro: the hooks
+  0:07.6   4 bars  Intro
+  0:15.2   1 bars  Verse 1: Galantis - Runaway (U & I)  "think i can fly"
+  0:17.1   1 bars  Verse 1: Peking Duk - Fire  "guess by now you know the drill"
+  0:19.0   2 bars  Verse 1: Galantis - Runaway (U & I)  "till you die"
+  0:22.9   2 bars  Verse 1: Peking Duk - Fire  "you tryna hold me down i'm gonna take your clothes in"
+  0:26.7   2 bars  Verse 1: Galantis - Runaway (U & I)  "i wanna run away"
+  0:30.5   2 bars  Verse 1: Peking Duk - Fire  "i'm gonna set this house on"
+  0:34.3   2 bars  Verse 1: Galantis - Runaway (U & I)  "give it all away"
+  0:38.1   2 bars  Verse 1: Peking Duk - Fire  "cause i'm gonna set this house on"
+  0:41.9   2 bars  Verse 1: Galantis - Runaway (U & I)  "catching fire as the wind blows"
+  0:45.7   4 bars  Chorus 1: Peking Duk - Fire  "it's it's more"
+  0:53.3   4 bars  Chorus 1: Peking Duk - Fire  "it's how it's how it's more if that's"
+  1:01.0   1 bars  Call and response: Peking Duk - Fire  "said you're running for the hills"
+  1:02.9   2 bars  Call and response: Galantis - Runaway (U & I)  "you and i"
+  1:06.7   1 bars  Call and response: Peking Duk - Fire  "the minute that i walk in"
+  1:08.6   1 bars  Call and response: Peking Duk - Fire
+  1:10.5   2 bars  Call and response: Galantis - Runaway (U & I)  "just you and i"
+  1:14.3   1 bars  Call and response: Peking Duk - Fire  "house on"
+  1:16.2   4 bars  Chorus 2: Galantis - Runaway (U & I)  "and i you and"
+  1:23.8   4 bars  Chorus 2: Galantis - Runaway (U & I)  "i good will sure i you"
+  1:31.4   2 bars  Riff-off: Galantis - Runaway (U & I)  "i see a billion dollars in your eyes"
+  1:35.2   1 bars  Riff-off: Peking Duk - Fire  "your ties"
+  1:37.1   1 bars  Riff-off: Galantis - Runaway (U & I)  "anywhere out this place"
+  1:39.0   1 bars  Riff-off: Galantis - Runaway (U & I)
+  1:41.0   2 bars  Riff-off: Peking Duk - Fire  "cause you're only gonna hurt yourself"
+  1:44.8   1 bars  Riff-off: Galantis - Runaway (U & I)  "when i'm with you"
+  1:46.7   1 bars  A cappella hit
+  1:48.6   2 bars  Final chorus: 2 voices  "and i"
+  1:52.4   2 bars  Final chorus: 2 voices  "you and i"
+  1:56.2   3 bars  Final chorus: 2 voices  "good will sure i you"
+  2:01.9   4 bars  Final chorus: everyone  "and i"
+  2:09.5   4 bars  Final chorus: everyone  "wanna run chase the moon and sun when ..."
+  2:17.1   4 bars  Outro
+  2:24.8   4 bars  Outro

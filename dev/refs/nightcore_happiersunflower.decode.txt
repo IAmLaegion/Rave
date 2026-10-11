@@ -1,0 +1,53 @@
+Reference: nightcore_happiersunflower (original) /data/cache/youtube/kwWKzixyFmg.webm
+Reference 100.0 BPM, key E, 341 beats; 2 sources
+
+== vocals
+  0:00.24   73 beats  Marshmello ft. Bastille - Happier          @   0.3s  -1 st  x1.0  conf 0.881
+  0:44.04   13 beats  Post Malone & Swae Lee - Sunflower         @  66.0s  +2 st  x1.1  conf 0.724
+  0:51.84    8 beats  Post Malone & Swae Lee - Sunflower         @  85.3s  +2 st  x1.1  conf 0.519
+  0:56.64    4 beats  Post Malone & Swae Lee - Sunflower         @ 122.7s  +2 st  x1.1  conf 0.468
+  0:59.04    6 beats  Post Malone & Swae Lee - Sunflower         @  77.3s  +2 st  x1.1  conf 0.452
+  1:02.64   66 beats  Post Malone & Swae Lee - Sunflower         @  86.7s  +2 st  x1.1  conf 0.85
+  1:42.24    3 beats  Marshmello ft. Bastille - Happier          @  65.1s  -1 st  x1.0  conf 0.493
+  1:44.04    6 beats  Marshmello ft. Bastille - Happier          @  71.1s  -1 st  x1.0  conf 0.436
+  1:47.64    3 beats  Post Malone & Swae Lee - Sunflower         @  63.3s  +2 st  x1.1  conf 0.48
+  1:49.44    4 beats  Post Malone & Swae Lee - Sunflower         @ 122.7s  +2 st  x1.1  conf 0.521
+  1:51.84   98 beats  Marshmello ft. Bastille - Happier          @ 121.5s  -1 st  x1.0  conf 0.94
+  2:50.64    9 beats  Post Malone & Swae Lee - Sunflower         @  68.0s  +2 st  x1.1  conf 0.676
+  2:56.04    5 beats  Post Malone & Swae Lee - Sunflower         @ 130.0s  +2 st  x1.1  conf 0.479
+  2:59.04    3 beats  Marshmello ft. Bastille - Happier          @ 189.9s  -1 st  x1.0  conf 0.417
+  3:00.84   32 beats  Marshmello ft. Bastille - Happier          @ 190.5s  -1 st  x1.0  conf 0.829
+
+== harmony
+  0:00.24   78 beats  Marshmello ft. Bastille - Happier          @   0.3s  -1 st  x1.0  conf 0.865
+  0:47.04   27 beats  Marshmello ft. Bastille - Happier          @ 104.7s  -1 st  x1.0  conf 0.769
+  1:03.24   41 beats  Marshmello ft. Bastille - Happier          @  63.3s  -1 st  x1.0  conf 0.708
+  1:27.84  141 beats  Marshmello ft. Bastille - Happier          @  97.5s  -1 st  x1.0  conf 0.825
+  2:52.44   11 beats  Marshmello ft. Bastille - Happier          @ 191.7s  -1 st  x1.0  conf 0.739
+  2:59.04   31 beats  Marshmello ft. Bastille - Happier          @ 188.7s  -1 st  x1.0  conf 0.762
+  3:17.64    4 beats  Marshmello ft. Bastille - Happier          @   4.5s  -1 st  x1.0  conf 0.622
+
+== drums
+  0:00.24    3 beats  Marshmello ft. Bastille - Happier          @  56.7s  +0 st  x1.0  conf 0.342
+  0:02.04    7 beats  Post Malone & Swae Lee - Sunflower         @  50.7s  +0 st  x1.1  conf 0.549
+  0:06.24    6 beats  Marshmello ft. Bastille - Happier          @  26.7s  +0 st  x1.0  conf 0.777
+  0:09.84    9 beats  Marshmello ft. Bastille - Happier          @ 152.7s  +0 st  x1.0  conf 0.93
+  0:15.24   27 beats  Marshmello ft. Bastille - Happier          @  15.3s  +0 st  x1.0  conf 0.896
+  0:31.44   10 beats  Marshmello ft. Bastille - Happier          @  90.3s  +0 st  x1.0  conf 0.983
+  0:37.44    3 beats  Marshmello ft. Bastille - Happier          @ 146.7s  +0 st  x1.0  conf 0.977
+  0:39.24   31 beats  Marshmello ft. Bastille - Happier          @  96.9s  +0 st  x1.0  conf 0.883
+  0:57.84   46 beats  Marshmello ft. Bastille - Happier          @  57.9s  +0 st  x1.0  conf 0.871
+  1:25.44    5 beats  Marshmello ft. Bastille - Happier          @  91.5s  +0 st  x1.0  conf 0.888
+  1:28.44   44 beats  Marshmello ft. Bastille - Happier          @  98.1s  +0 st  x1.0  conf 0.894
+  1:54.84    2 beats  Post Malone & Swae Lee - Sunflower         @ 142.7s  +0 st  x1.1  conf 0.716
+  1:56.04    5 beats  Marshmello ft. Bastille - Happier          @  20.7s  +0 st  x1.0  conf 0.398
+  1:59.04    8 beats  Marshmello ft. Bastille - Happier          @  18.9s  +0 st  x1.0  conf 0.446
+  2:03.84    4 beats  Marshmello ft. Bastille - Happier          @  15.9s  +0 st  x1.0  conf 0.677
+  2:06.24    4 beats  Marshmello ft. Bastille - Happier          @  16.5s  +0 st  x1.0  conf 0.512
+  2:08.64    4 beats  Post Malone & Swae Lee - Sunflower         @  88.0s  +0 st  x1.1  conf 0.589
+  2:11.04    6 beats  Marshmello ft. Bastille - Happier          @  27.9s  +0 st  x1.0  conf 0.753
+  2:14.64   95 beats  Marshmello ft. Bastille - Happier          @ 144.3s  +0 st  x1.0  conf 0.936
+  3:11.64    3 beats  Marshmello ft. Bastille - Happier          @ 122.7s  +0 st  x1.0  conf 0.564
+  3:13.44    3 beats  Post Malone & Swae Lee - Sunflower         @  88.7s  +0 st  x1.1  conf 0.35
+  3:15.24    2 beats  Post Malone & Swae Lee - Sunflower         @ 136.2s  +0 st  x1.1  conf 0.38
+  3:16.44    6 beats  Marshmello ft. Bastille - Happier          @  52.5s  +0 st  x1.0  conf 0.198

@@ -101,15 +101,27 @@ def download_youtube(vid, cache_dir):
         dur = info.get("duration")
         return "Longer than 15 minutes" if dur and dur > MAX_DURATION else None
 
-    try:
-        with _ydl({"format": "bestaudio/best", "outtmpl": os.path.join(d, "%(id)s.%(ext)s"),
-                   "match_filter": too_long, "retries": 3}) as y:
-            y.download([f"https://www.youtube.com/watch?v={vid}"])
-    except Exception as e:
-        if "confirm you" in str(e) and "not a bot" in str(e):
-            raise SourceError("YouTube wants this server to sign in (bot check). Export your YouTube cookies "
-                              "to cookies.txt in the data volume; see the README.")
-        raise SourceError(f"Couldn't download from YouTube: {_short(e)}")
+    # YouTube now and then answers a stream URL with 403 Forbidden: the URL one player client was given
+    # gets refused. A fresh extraction usually works, and failing that a different player client does.
+    attempts = [None, None, ["tv", "web_safari"], ["mweb", "android_vr"]]
+    for k, clients in enumerate(attempts):
+        extra = {"format": "bestaudio/best", "outtmpl": os.path.join(d, "%(id)s.%(ext)s"),
+                 "match_filter": too_long, "retries": 3, "fragment_retries": 3}
+        if clients:
+            extra["extractor_args"] = {"youtube": {"player_client": clients}}
+        try:
+            with _ydl(extra) as y:
+                y.download([f"https://www.youtube.com/watch?v={vid}"])
+            break
+        except Exception as e:
+            if "confirm you" in str(e) and "not a bot" in str(e):
+                raise SourceError("YouTube wants this server to sign in (bot check). Export your YouTube "
+                                  "cookies to cookies.txt in the data volume; see the README.")
+            if "403" not in str(e) or k == len(attempts) - 1:
+                raise SourceError(f"Couldn't download from YouTube: {_short(e)}")
+            for p in glob.glob(os.path.join(d, vid + ".*")):
+                os.remove(p)                           # drop the refused partial download
+            time.sleep(1 + k)
     have = [p for p in glob.glob(os.path.join(d, vid + ".*")) if not p.endswith((".part", ".ytdl"))]
     if not have:
         raise SourceError("YouTube download produced no audio (too long, or unavailable here)")

@@ -1,0 +1,429 @@
+{
+ "ref": "nightcore_happiersunflower",
+ "bpm": 100.00017976007369,
+ "key": 4,
+ "minor": false,
+ "sources": {
+  "Marshmello ft. Bastille - Happier": {
+   "bpm": 100.00094663581955,
+   "key": 5,
+   "minor": false
+  },
+  "Post Malone & Swae Lee - Sunflower": {
+   "bpm": 90.90909090909089,
+   "key": 2,
+   "minor": false
+  }
+ },
+ "vocals": [
+  {
+   "t": 0.2425173109615837,
+   "beats": 73,
+   "conf": 0.881,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 0.32377088766917367,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 44.04243857619078,
+   "beats": 13,
+   "conf": 0.724,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 66.0,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 51.84242455493023,
+   "beats": 8,
+   "conf": 0.519,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 85.34,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 56.6424159264622,
+   "beats": 4,
+   "conf": 0.468,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 122.68,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 59.04241161222818,
+   "beats": 6,
+   "conf": 0.452,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 77.34,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 62.64240514087716,
+   "beats": 66,
+   "conf": 0.85,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 86.68,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 102.2423339560159,
+   "beats": 3,
+   "conf": 0.493,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 65.12315747346503,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 104.04233072034039,
+   "beats": 6,
+   "conf": 0.436,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 71.12310067585354,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 107.64232424898935,
+   "beats": 3,
+   "conf": 0.48,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 63.34,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 109.44232101331384,
+   "beats": 4,
+   "conf": 0.521,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 122.68,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 111.84231669907983,
+   "beats": 98,
+   "conf": 0.94,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 121.52262357591698,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 170.6422110003464,
+   "beats": 9,
+   "conf": 0.676,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 68.02,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 176.04220129331986,
+   "beats": 5,
+   "conf": 0.479,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 130.0,
+   "shift": 2,
+   "stretch": 1.1
+  },
+  {
+   "t": 179.04219590052736,
+   "beats": 3,
+   "conf": 0.417,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 189.92197608314598,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 180.84219266485184,
+   "beats": 32,
+   "conf": 0.829,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 190.5219704033848,
+   "shift": -1,
+   "stretch": 1.0
+  }
+ ],
+ "harmony": [
+  {
+   "t": 0.2425173109615837,
+   "beats": 78,
+   "conf": 0.865,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 0.32377088766917367,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 47.04243318339826,
+   "beats": 27,
+   "conf": 0.769,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 104.72278260922917,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 63.242404062318656,
+   "beats": 41,
+   "conf": 0.708,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 63.32317451274849,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 87.84235984141999,
+   "beats": 141,
+   "conf": 0.825,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 97.52285076636296,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 172.4422077646709,
+   "beats": 11,
+   "conf": 0.739,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 191.7219590438625,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 179.04219590052736,
+   "beats": 31,
+   "conf": 0.762,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 188.72198744266825,
+   "shift": -1,
+   "stretch": 1.0
+  },
+  {
+   "t": 197.64216246521374,
+   "beats": 4,
+   "conf": 0.622,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 4.523731129341128,
+   "shift": -1,
+   "stretch": 1.0
+  }
+ ],
+ "drums": [
+  {
+   "t": 0.2425173109615837,
+   "beats": 3,
+   "conf": 0.342,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 56.72323699012113,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 2.0425140752860713,
+   "beats": 7,
+   "conf": 0.549,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 50.68,
+   "shift": 0,
+   "stretch": 1.1
+  },
+  {
+   "t": 6.242506525376543,
+   "beats": 6,
+   "conf": 0.777,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 26.7235209781786,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 9.842500054025518,
+   "beats": 9,
+   "conf": 0.93,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 152.72232822833723,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 15.24249034699898,
+   "beats": 27,
+   "conf": 0.896,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 15.323628893640437,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 31.442461225919374,
+   "beats": 10,
+   "conf": 0.983,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 90.32291892349676,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 37.442450440334326,
+   "beats": 3,
+   "conf": 0.977,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 146.7223850259487,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 39.242447204658816,
+   "beats": 31,
+   "conf": 0.883,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 96.92285644612411,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 57.84241376934519,
+   "beats": 46,
+   "conf": 0.871,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 57.92322563059883,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 85.442364155654,
+   "beats": 5,
+   "conf": 0.888,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 91.52290756397446,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 88.44235876286149,
+   "beats": 44,
+   "conf": 0.894,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 98.12284508660181,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 114.84231130628731,
+   "beats": 2,
+   "conf": 0.716,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 142.68,
+   "shift": 0,
+   "stretch": 1.1
+  },
+  {
+   "t": 116.0423091491703,
+   "beats": 5,
+   "conf": 0.398,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 20.723577775790094,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 119.04230375637778,
+   "beats": 8,
+   "conf": 0.446,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 18.923594815073542,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 123.84229512790975,
+   "beats": 4,
+   "conf": 0.677,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 15.923623213879289,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 126.24229081367574,
+   "beats": 4,
+   "conf": 0.512,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 16.523617534118138,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 128.6422864994417,
+   "beats": 4,
+   "conf": 0.589,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 88.02,
+   "shift": 0,
+   "stretch": 1.1
+  },
+  {
+   "t": 131.04228218520768,
+   "beats": 6,
+   "conf": 0.753,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 27.9235096186563,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 134.64227571385666,
+   "beats": 95,
+   "conf": 0.936,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 144.3224077449933,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 191.64217325079878,
+   "beats": 3,
+   "conf": 0.564,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 122.7226122163947,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 193.44217001512325,
+   "beats": 3,
+   "conf": 0.35,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 88.68,
+   "shift": 0,
+   "stretch": 1.1
+  },
+  {
+   "t": 195.24216677944776,
+   "beats": 2,
+   "conf": 0.38,
+   "song": "Post Malone & Swae Lee - Sunflower",
+   "src_t": 136.18,
+   "shift": 0,
+   "stretch": 1.1
+  },
+  {
+   "t": 196.44216462233075,
+   "beats": 6,
+   "conf": 0.198,
+   "song": "Marshmello ft. Bastille - Happier",
+   "src_t": 52.52327674844918,
+   "shift": 0,
+   "stretch": 1.0
+  }
+ ]
+}

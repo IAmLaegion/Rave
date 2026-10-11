@@ -1,0 +1,430 @@
+{
+ "summermash16": {
+  "video": "yVhzKSGH2As",
+  "songs": {
+   "Beyonce - Formation": {
+    "id": "OI2jn3lJTAE",
+    "title": "Formation",
+    "duration": 207,
+    "path": "/data/cache/youtube/OI2jn3lJTAE.webm"
+   },
+   "Calvin Harris ft. Rihanna - This Is What You Came For": {
+    "id": "kOkQ4T5WO9E",
+    "title": "Calvin Harris, Rihanna - This Is What You Came For (Official Video)",
+    "duration": 240,
+    "path": "/data/cache/youtube/kOkQ4T5WO9E.webm"
+   },
+   "DNCE - Cake By The Ocean": {
+    "id": "UfM-nM762ec",
+    "title": "Cake By The Ocean",
+    "duration": 220,
+    "path": "/data/cache/youtube/UfM-nM762ec.webm"
+   },
+   "Desiigner - Panda": {
+    "id": "4NJlUribp3c",
+    "title": "Desiigner - Panda (Audio)",
+    "duration": 248,
+    "path": "/data/cache/youtube/4NJlUribp3c.webm"
+   },
+   "Drake - One Dance": {
+    "id": "FOqKN-ouAUE",
+    "title": "One Dance (feat. WizKid & Kyla) - Drake (Official Audio)",
+    "duration": 175,
+    "path": "/data/cache/youtube/FOqKN-ouAUE.webm"
+   },
+   "Drake - Summer Sixteen": {
+    "id": "LmbC_aqI4no",
+    "title": "Summer Sixteen",
+    "duration": 203,
+    "path": "/data/cache/youtube/LmbC_aqI4no.webm"
+   },
+   "Fifth Harmony - Work from Home": {
+    "id": "5GL9JoH4Sws",
+    "title": "Fifth Harmony - Work from Home (Official Video) ft. Ty Dolla $ign",
+    "duration": 220,
+    "path": "/data/cache/youtube/5GL9JoH4Sws.webm"
+   },
+   "Flo Rida - My House": {
+    "id": "TuxMwALL_S4",
+    "title": "Flo Rida - My House (Official Audio)",
+    "duration": 194,
+    "path": "/data/cache/youtube/TuxMwALL_S4.webm"
+   },
+   "G-Eazy & Bebe Rexha - Me, Myself & I": {
+    "id": "K533gW3boIY",
+    "title": "G-Eazy X Bebe Rexha - Me, Myself & I (Official Audio)",
+    "duration": 255,
+    "path": "/data/cache/youtube/K533gW3boIY.webm"
+   },
+   "Lukas Graham - 7 Years": {
+    "id": "nwkgrqFnzvE",
+    "title": "7 Years- Lukas Graham (Audio)",
+    "duration": 234,
+    "path": "/data/cache/youtube/nwkgrqFnzvE.webm"
+   },
+   "Zara Larsson - Lush Life": {
+    "id": "MysKegBRtaA",
+    "title": "Zara Larsson - Lush Life (Official Audio)",
+    "duration": 202,
+    "path": "/data/cache/youtube/MysKegBRtaA.webm"
+   },
+   "Zara Larsson & MNEK - Never Forget You": {
+    "id": "ZlARJAmytnk",
+    "title": "Zara Larsson & MNEK - Never Forget You (Official Audio)",
+    "duration": 214,
+    "path": "/data/cache/youtube/ZlARJAmytnk.webm"
+   },
+   "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)": {
+    "id": "u3VFzuUiTGw",
+    "title": "Mike Posner - I Took A Pill In Ibiza (SeeB Remix)",
+    "duration": 200,
+    "path": "/data/cache/youtube/u3VFzuUiTGw.webm"
+   },
+   "Rihanna - Needed Me": {
+    "id": "kaoYLN4mOxg",
+    "title": "Needed Me",
+    "duration": 192,
+    "path": "/data/cache/youtube/kaoYLN4mOxg.webm"
+   },
+   "Rihanna ft. Drake - Work": {
+    "id": "qDP_HuBaQfs",
+    "title": "Work (feat. Drake) - Rihanna",
+    "duration": 220,
+    "path": "/data/cache/youtube/qDP_HuBaQfs.webm"
+   },
+   "Justin Timberlake - Can't Stop The Feeling": {
+    "id": "KbyPok-3dio",
+    "title": "Justin Timberlake - Can't Stop The Feeling (audio)",
+    "duration": 237,
+    "path": "/data/cache/youtube/KbyPok-3dio.webm"
+   },
+   "Twenty One Pilots - Stressed Out": {
+    "id": "Gc4sY98Jn9I",
+    "title": "twenty one pilots - Stressed Out (Audio)",
+    "duration": 203,
+    "path": "/data/cache/youtube/Gc4sY98Jn9I.webm"
+   },
+   "Zayn - Pillowtalk": {
+    "id": "S89spesXoQo",
+    "title": "ZAYN - PILLOWTALK (Audio)",
+    "duration": 203,
+    "path": "/data/cache/youtube/S89spesXoQo.webm"
+   },
+   "The Chainsmokers ft. Daya - Don't Let Me Down": {
+    "id": "qMH0Xglh7GA",
+    "title": "The Chainsmokers - Don't Let Me Down (Audio) ft. Daya",
+    "duration": 210,
+    "path": "/data/cache/youtube/qMH0Xglh7GA.webm"
+   }
+  },
+  "video_path": "/data/cache/youtube/yVhzKSGH2As.webm"
+ },
+ "minlee_shapeofyou": {
+  "video": "8OuJUFMiMfE",
+  "songs": {
+   "Ed Sheeran - Shape of You": {
+    "id": "JGwWNGJdvx8",
+    "title": "Ed Sheeran - Shape of You (Official Music Video)",
+    "duration": 264,
+    "path": "/data/cache/youtube/JGwWNGJdvx8.webm"
+   },
+   "The Weeknd - Blinding Lights": {
+    "id": "fHI8X4OXluQ",
+    "title": "The Weeknd - Blinding Lights (Official Audio)",
+    "duration": 204,
+    "path": "/data/cache/youtube/fHI8X4OXluQ.webm"
+   },
+   "Drake - One Dance": {
+    "id": "FOqKN-ouAUE",
+    "title": "One Dance (feat. WizKid & Kyla) - Drake (Official Audio)",
+    "duration": 175,
+    "path": "/data/cache/youtube/FOqKN-ouAUE.webm"
+   },
+   "Post Malone - rockstar": {
+    "id": "4GFAZBKZVJY",
+    "title": "Post Malone - rockstar ft. 21 Savage (Official Audio)",
+    "duration": 218,
+    "path": "/data/cache/youtube/4GFAZBKZVJY.webm"
+   },
+   "The Kid LAROI & Justin Bieber - Stay": {
+    "id": "Qb8q4ijHk_M",
+    "title": "The Kid LAROI, Justin Bieber - Stay (Official Audio)",
+    "duration": 142,
+    "path": "/data/cache/youtube/Qb8q4ijHk_M.webm"
+   },
+   "Tones and I - Dance Monkey": {
+    "id": "q0hyYWKXF0Q",
+    "title": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO)",
+    "duration": 237,
+    "path": "/data/cache/youtube/q0hyYWKXF0Q.webm"
+   },
+   "DJ Snake ft. Justin Bieber - Let Me Love You": {
+    "id": "o4Zx9TQc9KU",
+    "title": "DJ Snake ft  Justin Bieber - Let Me Love You HQ Audio",
+    "duration": 207,
+    "path": "/data/cache/youtube/o4Zx9TQc9KU.webm"
+   },
+   "The Weeknd - Starboy": {
+    "id": "Rif-RTvmmss",
+    "title": "The Weeknd - Starboy (Audio) ft. Daft Punk",
+    "duration": 231,
+    "path": "/data/cache/youtube/Rif-RTvmmss.webm"
+   },
+   "Charlie Puth - We Don't Talk Anymore": {
+    "id": "Pvcc5yEPpTc",
+    "title": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) (Audio)",
+    "duration": 218,
+    "path": "/data/cache/youtube/Pvcc5yEPpTc.webm"
+   },
+   "Eminem - The Real Slim Shady": {
+    "id": "1-M4JrFcrNY",
+    "title": "The Real Slim Shady",
+    "duration": 285,
+    "path": "/data/cache/youtube/1-M4JrFcrNY.webm"
+   },
+   "G-Eazy & Bebe Rexha - Me, Myself & I": {
+    "id": "K533gW3boIY",
+    "title": "G-Eazy X Bebe Rexha - Me, Myself & I (Official Audio)",
+    "duration": 255,
+    "path": "/data/cache/youtube/K533gW3boIY.webm"
+   },
+   "Charlie Puth - Attention": {
+    "id": "94CegRuTZNA",
+    "title": "Charlie Puth - Attention (Audio)",
+    "duration": 206,
+    "path": "/data/cache/youtube/94CegRuTZNA.webm"
+   },
+   "Ariana Grande - 7 rings": {
+    "id": "M84fFXooS5w",
+    "title": "Ariana Grande - 7 rings (Audio)",
+    "duration": 180,
+    "path": "/data/cache/youtube/M84fFXooS5w.webm"
+   },
+   "Jonas Brothers - Sucker": {
+    "id": "3tF6o67d45c",
+    "title": "Jonas Brothers - Sucker (Audio Oficial)",
+    "duration": 182,
+    "path": "/data/cache/youtube/3tF6o67d45c.webm"
+   },
+   "XXXTENTACION - SAD!": {
+    "id": "pgN-vvVVxMA",
+    "title": "XXXTENTACION - SAD!",
+    "duration": 167,
+    "path": "/data/cache/youtube/pgN-vvVVxMA.webm"
+   },
+   "Shawn Mendes - Treat You Better": {
+    "id": "lY2yjAdbvdQ",
+    "title": "Shawn Mendes - Treat You Better",
+    "duration": 257,
+    "path": "/data/cache/youtube/lY2yjAdbvdQ.webm"
+   },
+   "Camila Cabello - Havana": {
+    "id": "HCjNJDNzw8Y",
+    "title": "Camila Cabello - Havana (Audio) ft. Young Thug",
+    "duration": 219,
+    "path": "/data/cache/youtube/HCjNJDNzw8Y.webm"
+   },
+   "Shawn Mendes - Stitches": {
+    "id": "PQOdz2O4BfI",
+    "title": "Shawn Mendes - Stitches",
+    "duration": 207,
+    "path": "/data/cache/youtube/PQOdz2O4BfI.webm"
+   },
+   "Harry Styles - Watermelon Sugar": {
+    "id": "7-x3uD5z1bQ",
+    "title": "Harry Styles - Watermelon Sugar (Official Audio)",
+    "duration": 174,
+    "path": "/data/cache/youtube/7-x3uD5z1bQ.webm"
+   },
+   "Harry Styles - Adore You": {
+    "id": "iquhBgM-Qv0",
+    "title": "Harry Styles - Adore You (Official Audio)",
+    "duration": 209,
+    "path": "/data/cache/youtube/iquhBgM-Qv0.webm"
+   },
+   "Fifth Harmony - Work from Home": {
+    "id": "5GL9JoH4Sws",
+    "title": "Fifth Harmony - Work from Home (Official Video) ft. Ty Dolla $ign",
+    "duration": 220,
+    "path": "/data/cache/youtube/5GL9JoH4Sws.webm"
+   },
+   "Dua Lipa - Levitating": {
+    "id": "G2nJPEDc02k",
+    "title": "Dua Lipa - Levitating",
+    "duration": 204,
+    "path": "/data/cache/youtube/G2nJPEDc02k.webm"
+   },
+   "DJ Snake, Selena Gomez, Ozuna, Cardi B - Taki Taki": {
+    "id": "ixkoVwKQaJg",
+    "title": "DJ Snake - Taki Taki ft. Selena Gomez, Ozuna, Cardi B (Official Music Video)",
+    "duration": 232,
+    "path": "/data/cache/youtube/ixkoVwKQaJg.webm"
+   },
+   "Bad Bunny ft. Drake - MIA": {
+    "id": "OSUxrSe5GbI",
+    "title": "BAD BUNNY x DRAKE - M\u00cdA (Official Video)",
+    "duration": 211,
+    "path": "/data/cache/youtube/OSUxrSe5GbI.webm"
+   },
+   "Luis Fonsi ft. Daddy Yankee - Despacito": {
+    "id": "2bHBUs-k3ac",
+    "title": "Luis Fonsi Despacito ft. Daddy Yankee (audio)",
+    "duration": 229,
+    "path": "/data/cache/youtube/2bHBUs-k3ac.webm"
+   },
+   "Alan Walker - Faded": {
+    "id": "psn_rs_a5O0",
+    "title": "Alan Walker - Faded (Audio)",
+    "duration": 213,
+    "path": "/data/cache/youtube/psn_rs_a5O0.webm"
+   },
+   "Adele - Rolling in the Deep": {
+    "id": "bDtjO-R0QSo",
+    "title": "Adele - Rolling In The Deep",
+    "duration": 228,
+    "path": "/data/cache/youtube/bDtjO-R0QSo.webm"
+   },
+   "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)": {
+    "id": "u3VFzuUiTGw",
+    "title": "Mike Posner - I Took A Pill In Ibiza (SeeB Remix)",
+    "duration": 200,
+    "path": "/data/cache/youtube/u3VFzuUiTGw.webm"
+   },
+   "Kygo & Selena Gomez - It Ain't Me": {
+    "id": "D5drYkLiLI8",
+    "title": "Kygo & Selena Gomez - It Ain't Me (Audio)",
+    "duration": 222,
+    "path": "/data/cache/youtube/D5drYkLiLI8.webm"
+   },
+   "Bruno Mars - Talking to the Moon": {
+    "id": "e0hfR-ARS0M",
+    "title": "Bruno Mars - Talking To The Moon (Audio)",
+    "duration": 221,
+    "path": "/data/cache/youtube/e0hfR-ARS0M.webm"
+   },
+   "Imagine Dragons - Thunder": {
+    "id": "4AqjqOqNrjw",
+    "title": "Imagine Dragons - Thunder (Audio)",
+    "duration": 188,
+    "path": "/data/cache/youtube/4AqjqOqNrjw.webm"
+   },
+   "Taylor Swift - Anti-Hero": {
+    "id": "pGHK4UPCtXk",
+    "title": "Taylor Swift - Anti-Hero (Official Audio)",
+    "duration": 201,
+    "path": "/data/cache/youtube/pGHK4UPCtXk.webm"
+   },
+   "Lil Nas X & Jack Harlow - Industry Baby": {
+    "id": "HCq1OcAEAm0",
+    "title": "Lil Nas X - Industry Baby (Lyrics) ft. Jack Harlow",
+    "duration": 213,
+    "path": "/data/cache/youtube/HCq1OcAEAm0.webm"
+   },
+   "The Chainsmokers - Closer": {
+    "id": "5XggbNWy3NA",
+    "title": "The Chainsmokers - Closer (feat. Halsey) [Official Audio]",
+    "duration": 246,
+    "path": "/data/cache/youtube/5XggbNWy3NA.webm"
+   }
+  },
+  "video_path": "/data/cache/youtube/8OuJUFMiMfE.webm"
+ },
+ "nightcore_somethingjustlikethis": {
+  "video": "dKkiaQeo8fQ",
+  "songs": {
+   "The Chainsmokers & Coldplay - Something Just Like This": {
+    "id": "QHCm2vh3jlM",
+    "title": "The Chainsmokers & Coldplay - Something Just Like This (Audio)",
+    "duration": 240,
+    "path": "/data/cache/youtube/QHCm2vh3jlM.webm"
+   },
+   "Kygo & Selena Gomez - It Ain't Me": {
+    "id": "D5drYkLiLI8",
+    "title": "Kygo & Selena Gomez - It Ain't Me (Audio)",
+    "duration": 222,
+    "path": "/data/cache/youtube/D5drYkLiLI8.webm"
+   },
+   "Leona Lewis - Bleeding Love": {
+    "id": "U7ZU6lFs_nE",
+    "title": "Leona Lewis - Bleeding Love",
+    "duration": 264,
+    "path": "/data/cache/youtube/U7ZU6lFs_nE.webm"
+   },
+   "Alessia Cara - Scars To Your Beautiful": {
+    "id": "Em7vc8NWUNY",
+    "title": "Alessia Cara - Scars To Your Beautiful (Official Audio)",
+    "duration": 231,
+    "path": "/data/cache/youtube/Em7vc8NWUNY.webm"
+   },
+   "Ellie Goulding - Still Falling For You": {
+    "id": "pvP_OwVSFpk",
+    "title": "Ellie Goulding - Still Falling For You (From \"Bridget Jones's Baby\" Original Soundtrack)",
+    "duration": 253,
+    "path": "/data/cache/youtube/pvP_OwVSFpk.webm"
+   },
+   "Rihanna ft. JAY-Z - Umbrella": {
+    "id": "CvBfHwUxHIk",
+    "title": "Rihanna - Umbrella (Orange Version) (Official Music Video) ft. JA\u0178-Z",
+    "duration": 255,
+    "path": "/data/cache/youtube/CvBfHwUxHIk.webm"
+   },
+   "The Chainsmokers ft. ROZES - Roses": {
+    "id": "FyASdjZE0R0",
+    "title": "The Chainsmokers - Roses (Official Audio) ft. ROZES",
+    "duration": 229,
+    "path": "/data/cache/youtube/FyASdjZE0R0.webm"
+   },
+   "The Chainsmokers - Paris": {
+    "id": "eR01atryxIA",
+    "title": "The Chainsmokers - Paris (Audio)",
+    "duration": 220,
+    "path": "/data/cache/youtube/eR01atryxIA.webm"
+   },
+   "Taylor Swift - Style": {
+    "id": "-CmadmM5cOk",
+    "title": "Taylor Swift - Style",
+    "duration": 243,
+    "path": "/data/cache/youtube/-CmadmM5cOk.webm"
+   },
+   "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye": {
+    "id": "sP2yc_TVuzQ",
+    "title": "Clean Bandit - Rockabye ft Sean Paul, Anne-Marie ( Official Audio)",
+    "duration": 251,
+    "path": "/data/cache/youtube/sP2yc_TVuzQ.webm"
+   },
+   "R. City ft. Adam Levine - Locked Away": {
+    "id": "YQY9BZBrZds",
+    "title": "R. City - Locked Away (Audio) ft. Adam Levine",
+    "duration": 230,
+    "path": "/data/cache/youtube/YQY9BZBrZds.webm"
+   },
+   "Zedd & Alessia Cara - Stay": {
+    "id": "wD74rsRFdLM",
+    "title": "Zedd & Alessia Cara - Stay (Official Audio)",
+    "duration": 211,
+    "path": "/data/cache/youtube/wD74rsRFdLM.webm"
+   }
+  },
+  "video_path": "/data/cache/youtube/dKkiaQeo8fQ.webm",
+  "original_path": "/data/cache/youtube/TCcJcVWiZuM.webm"
+ },
+ "nightcore_happiersunflower": {
+  "video": "biUjVwx0E3c",
+  "songs": {
+   "Marshmello ft. Bastille - Happier": {
+    "id": "Wn91XJfBlfs",
+    "title": "Marshmello - Happier feat. Bastille (Audio)",
+    "duration": 215,
+    "path": "/data/cache/youtube/Wn91XJfBlfs.webm"
+   },
+   "Post Malone & Swae Lee - Sunflower": {
+    "id": "ApXoWvfEYVU",
+    "title": "Post Malone, Swae Lee - Sunflower (Spider-Man: Into the Spider-Verse)",
+    "duration": 162,
+    "path": "/data/cache/youtube/ApXoWvfEYVU.webm"
+   }
+  },
+  "video_path": "/data/cache/youtube/biUjVwx0E3c.webm",
+  "original_path": "/data/cache/youtube/kwWKzixyFmg.webm"
+ }
+}

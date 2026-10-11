@@ -1,0 +1,30 @@
+Rave cue sheet
+
+Engine: DJ Earworm
+Tempo 126.0 BPM, key C# (3B), length 145s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 142s
+
+Songs:
+  1. Galantis - Runaway (U & I) (Lyrics) [base]: 126.0 BPM C# (3B) -> x1.000, +0 st; chorus at bar 44
+  2. Peking Duk - Fire: 100.0 BPM C#m (12A) -> x1.260, -3 st; chorus at bar 77
+
+Arrangement:
+  0:00.0   4 bars  Intro
+  0:07.6   4 bars  Verse 1: Galantis - Runaway (U & I) (Lyrics)
+  0:15.2   4 bars  Verse 1: Peking Duk - Fire
+  0:22.9   4 bars  Verse 1: Galantis - Runaway (U & I) (Lyrics)
+  0:30.5   4 bars  Verse 1: Peking Duk - Fire
+  0:38.1   4 bars  Chorus 1: Peking Duk - Fire
+  0:45.7   4 bars  Chorus 1: Peking Duk - Fire
+  0:53.3   4 bars  Verse 2: Galantis - Runaway (U & I) (Lyrics)
+  1:01.0   4 bars  Verse 2: Peking Duk - Fire
+  1:08.6   4 bars  Chorus 2: Galantis - Runaway (U & I) (Lyrics)
+  1:16.2   4 bars  Chorus 2: Galantis - Runaway (U & I) (Lyrics)
+  1:23.8   4 bars  Bridge: Galantis - Runaway (U & I) (Lyrics)
+  1:31.4   4 bars  Bridge: Galantis - Runaway (U & I) (Lyrics)
+  1:39.0   2 bars  Final chorus: 2 voices
+  1:42.9   2 bars  Final chorus: 2 voices
+  1:46.7   2 bars  Final chorus: 2 voices
+  1:50.5   2 bars  Final chorus: 2 voices
+  1:54.3   8 bars  Final chorus: everyone
+  2:09.5   8 bars  Outro

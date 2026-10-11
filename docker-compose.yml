@@ -1,9 +1,14 @@
 services:
   rave:
-    build: .
+    build:
+      context: .
+      args:
+        # CUDA build of PyTorch (RTX 50-series needs CUDA 12.8+). For a CPU-only machine, remove this
+        # and the deploy block below.
+        TORCH_INDEX: https://download.pytorch.org/whl/cu128
     image: rave
     ports:
-      - "8000:8000"
+      - "7865:8000"
     volumes:
       - rave-data:/data        # finished mashups and the cache of separated stems
     restart: unless-stopped
@@ -14,14 +19,20 @@ services:
       SPOTIFY_CLIENT_SECRET: ${SPOTIFY_CLIENT_SECRET:-}
       # Fetch the newest yt-dlp at each start; YouTube breaks old versions. 0 to skip.
       RAVE_UPDATE_YTDLP: "1"
-    # For an NVIDIA GPU: build with TORCH_INDEX=https://download.pytorch.org/whl/cu124 and uncomment:
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: all
-    #           capabilities: [gpu]
+      # Optional LocalAI: whisper-large for the lyrics, and whichever chat model it already has loaded
+      # judges which lyric lines carry on from each other. Leave empty to use only what's built in.
+      RAVE_LOCALAI_URL: ${RAVE_LOCALAI_URL:-http://host.docker.internal:8085}
+      # Optional StemDeck server: songs are separated there on its GPU (seconds each); Demucs if it's down.
+      RAVE_STEMDECK_URL: ${RAVE_STEMDECK_URL:-http://host.docker.internal:7866}
+    # The GPU runs separation (BS-RoFormer + Demucs) and beat tracking in seconds. It's shared with
+    # LocalAI and StemDeck; if it's full, Rave falls back to the CPU for that song.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
 
 volumes:
   rave-data:

@@ -1,0 +1,143 @@
+Reference: minlee_shapeofyou (video) /data/cache/youtube/8OuJUFMiMfE.webm
+  separating psn_rs_a5O0.webm
+/usr/local/lib/python3.12/site-packages/rotary_embedding_torch/rotary_embedding_torch.py:35: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+/usr/local/lib/python3.12/site-packages/rotary_embedding_torch/rotary_embedding_torch.py:268: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @autocast(enabled = False)
+Reference 96.0 BPM, key F#m, 251 beats; 34 sources
+
+== vocals
+  0:00.10   11 beats  Ed Sheeran - Shape of You                  @  46.1s  +0 st  x0.992  conf 0.76
+  0:06.98    2 beats  The Weeknd - Blinding Lights               @  70.8s  +1 st  x1.123  conf 0.538
+  0:08.23    7 beats  The Weeknd - Blinding Lights               @ 184.5s  +1 st  x1.123  conf 0.638
+  0:12.61    6 beats  The Chainsmokers - Closer                  @  43.2s  +1 st  x1.024  conf 0.633
+  0:16.36    1 beats  Luis Fonsi ft. Daddy Yankee - Despacito    @ 168.4s  -5 st  x1.088  conf 0.489
+  0:16.98    4 beats  Drake - One Dance                          @ 157.6s  -2 st  x0.923  conf 0.457
+  0:19.48    2 beats  Bad Bunny ft. Drake - MIA                  @  68.0s  +2 st  x0.99  conf 0.572
+  0:20.73    4 beats  Post Malone - rockstar                     @ 127.4s  -6 st  x1.2  conf 0.525
+  0:23.23    3 beats  Kygo & Selena Gomez - It Ain't Me          @ 116.7s  -3 st  x0.96  conf 0.461
+  0:25.11    5 beats  Harry Styles - Adore You                   @ 119.0s  -6 st  x0.97  conf 0.483
+  0:28.23    3 beats  Adele - Rolling in the Deep                @ 178.3s  -2 st  x0.914  conf 0.533
+  0:30.11    3 beats  Bad Bunny ft. Drake - MIA                  @ 121.2s  +4 st  x0.99  conf 0.568
+  0:31.98    9 beats  G-Eazy & Bebe Rexha - Me, Myself & I       @  15.5s  +1 st  x0.857  conf 0.683
+  0:37.61    6 beats  G-Eazy & Bebe Rexha - Me, Myself & I       @  11.7s  +1 st  x0.857  conf 0.583
+  0:41.36    3 beats  DJ Snake ft. Justin Bieber - Let Me Love Y @ 105.3s  +1 st  x0.96  conf 0.487
+  0:43.23    4 beats  Jonas Brothers - Sucker                    @ 155.8s  +5 st  x1.391  conf 0.426
+  0:45.73    4 beats  Shawn Mendes - Stitches                    @  33.0s  -4 st  x1.28  conf 0.427
+  0:48.23    3 beats  Taylor Swift - Anti-Hero                   @ 133.3s  +5 st  x0.99  conf 0.443
+  0:50.11    2 beats  Camila Cabello - Havana                    @ 175.8s  -6 st  x0.914  conf 0.433
+  0:51.36    2 beats  Eminem - The Real Slim Shady               @  97.7s  +4 st  x0.919  conf 0.444
+  0:52.61    4 beats  Imagine Dragons - Thunder                  @  14.3s  -4 st  x1.143  conf 0.471
+  0:55.11    3 beats  Bad Bunny ft. Drake - MIA                  @ 119.4s  +4 st  x0.99  conf 0.475
+  0:56.98    2 beats  DJ Snake ft. Justin Bieber - Let Me Love Y @ 159.3s  +1 st  x0.96  conf 0.481
+  0:58.23    4 beats  Ed Sheeran - Shape of You                  @  24.2s  +0 st  x0.992  conf 0.476
+  1:00.73    4 beats  Eminem - The Real Slim Shady               @ 227.5s  +3 st  x0.919  conf 0.465
+  1:03.23    2 beats  Fifth Harmony - Work from Home             @ 154.0s  +1 st  x0.914  conf 0.465
+  1:04.48    2 beats  DJ Snake ft. Justin Bieber - Let Me Love Y @ 126.3s  +1 st  x0.96  conf 0.424
+  1:05.73    3 beats  Eminem - The Real Slim Shady               @ 173.0s  +4 st  x0.919  conf 0.448
+  1:07.61    3 beats  The Weeknd - Blinding Lights               @ 132.6s  +1 st  x1.123  conf 0.418
+  1:09.48    4 beats  Camila Cabello - Havana                    @  93.5s  -4 st  x0.914  conf 0.441
+  1:11.98    4 beats  The Weeknd - Blinding Lights               @ 171.2s  +0 st  x1.123  conf 0.479
+  1:14.49    5 beats  The Kid LAROI & Justin Bieber - Stay       @ 113.8s  -4 st  x1.129  conf 0.524
+  1:17.61    5 beats  Dua Lipa - Levitating                      @  81.2s  -3 st  x0.932  conf 0.519
+  1:20.74    3 beats  Ariana Grande - 7 rings                    @  79.6s  +5 st  x1.371  conf 0.482
+  1:22.61    2 beats  Ed Sheeran - Shape of You                  @  35.4s  +0 st  x0.992  conf 0.484
+  1:23.86    4 beats  The Weeknd - Blinding Lights               @ 183.1s  +1 st  x1.123  conf 0.512
+  1:26.36    4 beats  The Weeknd - Blinding Lights               @ 184.5s  +1 st  x1.123  conf 0.574
+  1:28.86    5 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @ 165.0s  +5 st  x1.0  conf 0.525
+  1:31.99    7 beats  Camila Cabello - Havana                    @  93.5s  -4 st  x0.914  conf 0.639
+  1:36.36    3 beats  Jonas Brothers - Sucker                    @  74.9s  +5 st  x1.391  conf 0.572
+  1:38.24    4 beats  Ed Sheeran - Shape of You                  @ 127.3s  +0 st  x0.992  conf 0.588
+  1:40.74    4 beats  Ed Sheeran - Shape of You                  @  51.7s  +0 st  x0.992  conf 0.513
+  1:43.24    2 beats  Bruno Mars - Talking to the Moon           @  12.0s  +5 st  x1.315  conf 0.457
+  1:44.49    1 beats  Camila Cabello - Havana                    @ 106.6s  -6 st  x0.914  conf 0.486
+  1:45.11    3 beats  Bruno Mars - Talking to the Moon           @  27.6s  +5 st  x1.315  conf 0.441
+  1:46.99    6 beats  Camila Cabello - Havana                    @ 182.0s  -6 st  x0.914  conf 0.438
+  1:50.74    2 beats  Bruno Mars - Talking to the Moon           @  28.4s  +5 st  x1.315  conf 0.475
+  1:51.99    5 beats  Imagine Dragons - Thunder                  @  40.7s  -4 st  x1.143  conf 0.447
+  1:55.11    4 beats  DJ Snake ft. Justin Bieber - Let Me Love Y @  46.5s  +1 st  x0.96  conf 0.478
+  1:57.61    3 beats  Harry Styles - Watermelon Sugar            @  21.3s  -3 st  x0.992  conf 0.498
+  1:59.49    2 beats  The Weeknd - Blinding Lights               @  42.0s  +1 st  x1.123  conf 0.548
+  2:00.74    5 beats  The Chainsmokers - Closer                  @ 168.9s  +1 st  x1.024  conf 0.615
+  2:03.86    4 beats  DJ Snake ft. Justin Bieber - Let Me Love Y @  94.5s  +1 st  x0.96  conf 0.533
+  2:06.36    4 beats  The Weeknd - Starboy                       @ 218.3s  -3 st  x1.032  conf 0.461
+  2:08.86    3 beats  Adele - Rolling in the Deep                @  67.4s  -1 st  x0.914  conf 0.516
+  2:10.74    5 beats  The Weeknd - Blinding Lights               @  76.4s  +1 st  x1.123  conf 0.46
+  2:13.86    1 beats  Jonas Brothers - Sucker                    @  76.6s  +5 st  x1.391  conf 0.497
+  2:14.49    5 beats  Charlie Puth - Attention                   @ 159.7s  -4 st  x0.959  conf 0.5
+  2:17.62    2 beats  Mike Posner - I Took A Pill In Ibiza (Seeb @ 110.6s  -1 st  x0.941  conf 0.489
+  2:18.87    7 beats  Luis Fonsi ft. Daddy Yankee - Despacito    @ 132.7s  -5 st  x1.088  conf 0.562
+  2:23.24    4 beats  DJ Snake ft. Justin Bieber - Let Me Love Y @ 162.9s  +1 st  x0.96  conf 0.523
+  2:25.74    9 beats  Ed Sheeran - Shape of You                  @ 227.8s  +0 st  x0.992  conf 0.712
+  2:31.37    1 beats  Ed Sheeran - Shape of You                  @ 213.4s  +0 st  x0.992  conf 0.639
+
+== harmony
+  0:00.10    6 beats  Ed Sheeran - Shape of You                  @  21.1s  +0 st  x0.992  conf 0.921
+  0:03.85   22 beats  Ed Sheeran - Shape of You                  @  49.8s  +0 st  x0.992  conf 0.797
+  0:17.61   12 beats  Ed Sheeran - Shape of You                  @  58.6s  +0 st  x0.992  conf 0.803
+  0:25.11    4 beats  Ed Sheeran - Shape of You                  @ 101.1s  +0 st  x0.992  conf 0.677
+  0:27.61    2 beats  Taylor Swift - Anti-Hero                   @ 194.6s  +5 st  x0.99  conf 0.567
+  0:28.86    2 beats  G-Eazy & Bebe Rexha - Me, Myself & I       @ 128.5s  +1 st  x0.857  conf 0.551
+  0:30.11    3 beats  Imagine Dragons - Thunder                  @  66.5s  -4 st  x1.143  conf 0.539
+  0:31.98   11 beats  Ed Sheeran - Shape of You                  @ 182.9s  +0 st  x0.992  conf 0.765
+  0:38.86    9 beats  Ed Sheeran - Shape of You                  @  34.8s  +0 st  x0.992  conf 0.789
+  0:44.48   17 beats  Ed Sheeran - Shape of You                  @ 115.4s  +0 st  x0.992  conf 0.877
+  0:55.11   12 beats  Ed Sheeran - Shape of You                  @ 116.1s  +0 st  x0.992  conf 0.886
+  1:02.61   26 beats  Ed Sheeran - Shape of You                  @ 204.7s  +0 st  x0.992  conf 0.823
+  1:18.86    9 beats  Ed Sheeran - Shape of You                  @  89.8s  +0 st  x0.992  conf 0.823
+  1:24.49    8 beats  Ed Sheeran - Shape of You                  @  20.4s  +0 st  x0.992  conf 0.908
+  1:29.49   25 beats  Ed Sheeran - Shape of You                  @  40.4s  +0 st  x0.992  conf 0.894
+  1:45.11    7 beats  Ed Sheeran - Shape of You                  @  21.1s  +0 st  x0.992  conf 0.956
+  1:49.49   11 beats  Ed Sheeran - Shape of You                  @ 110.4s  +0 st  x0.992  conf 0.879
+  1:56.36   21 beats  Ed Sheeran - Shape of You                  @ 208.4s  +0 st  x0.992  conf 0.809
+  2:09.49   36 beats  Ed Sheeran - Shape of You                  @ 201.6s  +0 st  x0.992  conf 0.828
+
+== drums
+  0:00.10    5 beats  Shawn Mendes - Treat You Better            @  92.6s  +0 st  x1.152  conf 0.636
+  0:03.23    4 beats  Lil Nas X & Jack Harlow - Industry Baby    @  92.8s  +0 st  x1.28  conf 0.632
+  0:05.73    2 beats  Tones and I - Dance Monkey                 @  82.6s  +0 st  x0.992  conf 0.673
+  0:06.98    5 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @  93.1s  +0 st  x1.0  conf 0.773
+  0:10.10    5 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @ 168.7s  +0 st  x1.0  conf 0.921
+  0:13.23    4 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @ 165.6s  +0 st  x1.0  conf 0.928
+  0:15.73    5 beats  Bad Bunny ft. Drake - MIA                  @ 188.6s  +0 st  x0.99  conf 0.866
+  0:18.86    4 beats  Ed Sheeran - Shape of You                  @ 199.7s  +0 st  x0.992  conf 0.884
+  0:21.36    5 beats  Drake - One Dance                          @ 160.5s  +0 st  x0.923  conf 0.902
+  0:24.48    3 beats  Drake - One Dance                          @ 164.6s  +0 st  x0.923  conf 0.683
+  0:26.36    3 beats  XXXTENTACION - SAD!                        @  19.3s  +0 st  x1.28  conf 0.66
+  0:28.23    3 beats  The Weeknd - Blinding Lights               @ 183.8s  +0 st  x1.123  conf 0.739
+  0:30.11    2 beats  XXXTENTACION - SAD!                        @ 118.7s  +0 st  x1.28  conf 0.748
+  0:31.36    4 beats  Ed Sheeran - Shape of You                  @ 193.6s  +0 st  x0.992  conf 0.783
+  0:33.86    5 beats  Ed Sheeran - Shape of You                  @ 174.8s  +0 st  x0.992  conf 0.861
+  0:36.98    8 beats  Drake - One Dance                          @ 158.8s  +0 st  x0.923  conf 0.897
+  0:41.98   10 beats  Drake - One Dance                          @ 158.8s  +0 st  x0.923  conf 0.907
+  0:48.23    9 beats  Drake - One Dance                          @ 156.5s  +0 st  x0.923  conf 0.904
+  0:53.86    7 beats  Ed Sheeran - Shape of You                  @ 184.8s  +0 st  x0.992  conf 0.904
+  0:58.23   10 beats  Drake - One Dance                          @ 160.0s  +0 st  x0.923  conf 0.897
+  1:04.48    3 beats  Ed Sheeran - Shape of You                  @ 209.1s  +0 st  x0.992  conf 0.865
+  1:06.36    3 beats  Ed Sheeran - Shape of You                  @ 199.7s  +0 st  x0.992  conf 0.895
+  1:08.23    8 beats  Drake - One Dance                          @ 160.0s  +0 st  x0.923  conf 0.892
+  1:13.23   11 beats  Drake - One Dance                          @ 156.5s  +0 st  x0.923  conf 0.878
+  1:20.11    3 beats  Ed Sheeran - Shape of You                  @  68.6s  +0 st  x0.992  conf 0.816
+  1:21.99    4 beats  Bad Bunny ft. Drake - MIA                  @  76.1s  +0 st  x0.99  conf 0.837
+  1:24.49    1 beats  Camila Cabello - Havana                    @   0.3s  +0 st  x0.914  conf 0.893
+  1:25.11    7 beats  Imagine Dragons - Thunder                  @ 104.3s  +0 st  x1.143  conf 0.934
+  1:29.49    6 beats  Camila Cabello - Havana                    @  87.2s  +0 st  x0.914  conf 0.82
+  1:33.24    1 beats  Ed Sheeran - Shape of You                  @  15.4s  +0 st  x0.992  conf 0.83
+  1:33.86    5 beats  Drake - One Dance                          @  72.8s  +0 st  x0.923  conf 0.913
+  1:36.99    2 beats  Drake - One Dance                          @  12.3s  +0 st  x0.923  conf 0.916
+  1:38.24    3 beats  Drake - One Dance                          @  45.7s  +0 st  x0.923  conf 0.839
+  1:40.11    3 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @ 121.2s  +0 st  x1.0  conf 0.723
+  1:41.99    9 beats  Drake - One Dance                          @  50.3s  +0 st  x0.923  conf 0.773
+  1:47.61    9 beats  Ed Sheeran - Shape of You                  @  16.1s  +0 st  x0.992  conf 0.806
+  1:53.24    4 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @  54.3s  +0 st  x1.0  conf 0.822
+  1:55.74    3 beats  Drake - One Dance                          @ 142.6s  +0 st  x0.923  conf 0.872
+  1:57.61    4 beats  Drake - One Dance                          @ 155.9s  +0 st  x0.923  conf 0.915
+  2:00.11   12 beats  Ed Sheeran - Shape of You                  @  68.6s  +0 st  x0.992  conf 0.846
+  2:07.61    5 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @  58.7s  +0 st  x1.0  conf 0.889
+  2:10.74    3 beats  Ed Sheeran - Shape of You                  @  91.7s  +0 st  x0.992  conf 0.815
+  2:12.61    4 beats  Ed Sheeran - Shape of You                  @  13.6s  +0 st  x0.992  conf 0.856
+  2:15.11    9 beats  Drake - One Dance                          @ 158.2s  +0 st  x0.923  conf 0.921
+  2:20.74    4 beats  Ed Sheeran - Shape of You                  @ 119.2s  +0 st  x0.992  conf 0.861
+  2:23.24    7 beats  Drake - One Dance                          @ 156.5s  +0 st  x0.923  conf 0.874
+  2:27.62    3 beats  DJ Snake, Selena Gomez, Ozuna, Cardi B - T @  58.7s  +0 st  x1.0  conf 0.927
+  2:29.49    4 beats  Ed Sheeran - Shape of You                  @ 177.9s  +0 st  x0.992  conf 0.87

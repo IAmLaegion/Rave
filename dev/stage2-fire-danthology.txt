@@ -1,0 +1,32 @@
+Rave cue sheet
+
+Engine: Pop Danthology
+Tempo 108.0 BPM, key C (8B), length 143s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 221s
+
+Songs:
+  1. Adele - Set Fire to the Rain [base]: 108.0 BPM C (8B) -> x1.000, -3 st; chorus at bar 77
+  2. Alicia Keys - Girl on Fire: 93.0 BPM A (11B) -> x1.161, +0 st; chorus at bar 66
+
+Arrangement:
+  0:00.0   4 bars  Intro: hooks
+  0:08.9   4 bars  Adele - Set Fire to the Rain over Alicia Keys - Girl on Fire  "i test your face when it burns when ..."
+  0:17.8   2 bars  Call: Alicia Keys - Girl on Fire  "you can try but you'll never forget one ..."
+  0:22.2   2 bars  Response: Adele - Set Fire to the Rain
+  0:26.7   4 bars  Alicia Keys - Girl on Fire over Adele - Set Fire to the Rain  "so bright she can burn your eyes then ..."
+  0:35.6   2 bars  Call: Adele - Set Fire to the Rain  "would always win always win but i said"
+  0:40.0   2 bars  Response: Alicia Keys - Girl on Fire  "hotter than a fantasy lonely like a highway"
+  0:44.4   4 bars  Adele - Set Fire to the Rain over Alicia Keys - Girl on Fire  "to the rain watch it pour as i ..."
+  0:53.3   2 bars  Call: Alicia Keys - Girl on Fire  "she's living in a world and it's on ..."
+  0:57.8   2 bars  Response: Adele - Set Fire to the Rain
+  1:02.2   4 bars  Alicia Keys - Girl on Fire over Adele - Set Fire to the Rain  "lonely like a highway she's living in a ..."
+  1:11.1   2 bars  Call: Adele - Set Fire to the Rain  "let it fall my heart and as"
+  1:15.6   2 bars  Response: Alicia Keys - Girl on Fire  "filled with catastrophe but she knows she can ..."
+  1:20.0   4 bars  Adele - Set Fire to the Rain over Alicia Keys - Girl on Fire  "it fell you rose to claiming it was ..."
+  1:28.9   2 bars  Call: Alicia Keys - Girl on Fire  "she's on top of the world hottest of ..."
+  1:33.3   2 bars  Response: Adele - Set Fire to the Rain
+  1:37.8   4 bars  Alicia Keys - Girl on Fire over Adele - Set Fire to the Rain  "say oh we've got our feet on the ..."
+  1:46.7   2 bars  Call: Adele - Set Fire to the Rain
+  1:51.1   2 bars  Response: Alicia Keys - Girl on Fire  "you can try but you'll never forget one ..."
+  1:55.6   8 bars  Finale: every chorus  "i test your face when it burns when ..."
+  2:13.3   4 bars  Outro

@@ -1,0 +1,21 @@
+Rave cue sheet
+
+Engine: Vocal swap
+Tempo 126.0 BPM, key C# (3B), length 138s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 179s
+
+Songs:
+  1. Galantis - Runaway (U & I) [base]: 126.0 BPM C# (3B) -> x1.000, +0 st; chorus at bar 44
+  2. Peking Duk - Fire: 100.0 BPM C#m (12A) -> x1.260, -3 st; chorus at bar 77
+
+Arrangement:
+  0:00.0   4 bars  Intro
+  0:07.6   8 bars  Swap in Peking Duk - Fire vocals
+  0:22.9   8 bars  Keep Galantis - Runaway (U & I) vocals
+  0:38.1   8 bars  Swap in Peking Duk - Fire vocals
+  0:53.3   8 bars  Keep Galantis - Runaway (U & I) vocals
+  1:08.6   8 bars  Swap in Peking Duk - Fire vocals
+  1:23.8   8 bars  Keep Galantis - Runaway (U & I) vocals
+  1:39.0   8 bars  Swap in Peking Duk - Fire vocals
+  1:54.3   8 bars  Keep Galantis - Runaway (U & I) vocals
+  2:09.5   4 bars  Outro

@@ -1,0 +1,26 @@
+Rave cue sheet
+
+Engine: Pitch Perfect riff-off
+Tempo 108.0 BPM, key C (8B), length 147s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 614s
+
+Songs:
+  1. Adele - Set Fire to the Rain [base]: 108.0 BPM C (8B) -> x1.000, -3 st; chorus at bar 77
+  2. Alicia Keys - Girl on Fire: 93.0 BPM A (11B) -> x1.161, +0 st; chorus at bar 66
+
+Arrangement:
+  0:00.0   4 bars  Intro
+  0:08.9   8 bars  Verse: Adele - Set Fire to the Rain  "they burn"
+  0:26.7   8 bars  Verse: Alicia Keys - Girl on Fire  "this girl is on fire this girl is ..."
+  0:44.4   4 bars  Trade: Adele - Set Fire to the Rain  "were never true never true in the games ..."
+  0:53.3   4 bars  Trade: Alicia Keys - Girl on Fire  "so bright she can burn your eyes then ..."
+  1:02.2   4 bars  Trade: Adele - Set Fire to the Rain  "to the rain watch it pour as i ..."
+  1:11.1   4 bars  Trade: Alicia Keys - Girl on Fire  "lonely like a highway she's living in a ..."
+  1:20.0   4 bars  Trade: Adele - Set Fire to the Rain
+  1:28.9   2 bars  Riff-off: Alicia Keys - Girl on Fire  "you can try but you'll never forget one ..."
+  1:33.3   2 bars  Riff-off: Adele - Set Fire to the Rain  "let it fall my heart and as"
+  1:37.8   2 bars  Riff-off: Alicia Keys - Girl on Fire  "hotter than a fantasy lonely like a highway"
+  1:42.2   1 bars  Finale (a cappella)  "i test your"
+  1:44.4   7 bars  Finale: everyone  "face when it burns when i cry i ..."
+  2:00.0   8 bars  Finale: everyone (again)  "pushed into flames when i felt something die ..."
+  2:17.8   4 bars  Outro

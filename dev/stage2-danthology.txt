@@ -1,0 +1,35 @@
+Rave cue sheet
+
+Engine: Pop Danthology
+Tempo 126.0 BPM, key C# (3B), length 138s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 149s
+
+Songs:
+  1. Galantis - Runaway (U & I) [base]: 126.0 BPM C# (3B) -> x1.000, +0 st; chorus at bar 44
+  2. Peking Duk - Fire: 100.0 BPM C#m (12A) -> x1.260, -3 st; chorus at bar 77
+
+Arrangement:
+  0:00.0   4 bars  Intro: hooks
+  0:07.6   4 bars  Galantis - Runaway (U & I) over Peking Duk - Fire
+  0:15.2   2 bars  Call: Peking Duk - Fire
+  0:19.0   2 bars  Response: Galantis - Runaway (U & I)
+  0:22.9   4 bars  Peking Duk - Fire over Galantis - Runaway (U & I)
+  0:30.5   2 bars  Call: Galantis - Runaway (U & I)
+  0:34.3   2 bars  Response: Peking Duk - Fire
+  0:38.1   4 bars  Galantis - Runaway (U & I) over Peking Duk - Fire
+  0:45.7   2 bars  Call: Peking Duk - Fire
+  0:49.5   2 bars  Response: Galantis - Runaway (U & I)
+  0:53.3   4 bars  Peking Duk - Fire over Galantis - Runaway (U & I)
+  1:01.0   2 bars  Call: Galantis - Runaway (U & I)
+  1:04.8   2 bars  Response: Peking Duk - Fire
+  1:08.6   4 bars  Galantis - Runaway (U & I) over Peking Duk - Fire
+  1:16.2   2 bars  Call: Peking Duk - Fire
+  1:20.0   2 bars  Response: Galantis - Runaway (U & I)
+  1:23.8   4 bars  Peking Duk - Fire over Galantis - Runaway (U & I)
+  1:31.4   2 bars  Call: Galantis - Runaway (U & I)
+  1:35.2   2 bars  Response: Peking Duk - Fire
+  1:39.0   4 bars  Galantis - Runaway (U & I) over Peking Duk - Fire
+  1:46.7   2 bars  Call: Peking Duk - Fire
+  1:50.5   2 bars  Response: Galantis - Runaway (U & I)
+  1:54.3   8 bars  Finale: every chorus  "you and i you and i i you ..."
+  2:09.5   4 bars  Outro

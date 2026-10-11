@@ -32,10 +32,42 @@ COPY requirements.txt requirements-demucs.txt ./
 RUN pip install -r requirements.txt
 # Demucs and its model weights are baked into the image so the first mashup doesn't wait on a download.
 RUN if [ "$WITH_DEMUCS" = "1" ]; then \
-      pip install torch --index-url "$TORCH_INDEX" \
+      pip install "torch==2.11.*" "torchaudio==2.11.*" --index-url "$TORCH_INDEX" \
    && pip install -r requirements-demucs.txt \
    && python -c "from demucs.pretrained import get_model; get_model('htdemucs')"; \
     fi
+# Rubber Band's CLI takes a beat map, so every song can be warped onto one exact grid.
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends rubberband-cli \
+ && rm -rf /var/lib/apt/lists/*
+# beat_this: neural beat and downbeat tracking, weights baked in like Demucs. It needs torchaudio,
+# whose last release is 2.11, hence the torch pin above.
+RUN if [ "$WITH_DEMUCS" = "1" ]; then \
+      pip install "beat-this>=1.1" \
+   && python -c "from beat_this.inference import File2Beats; File2Beats(checkpoint_path='final0', device='cpu')"; \
+    fi
+# Lyrics: faster-whisper transcribes the separated vocals with word timings, and the CMU pronouncing
+# dictionary finds rhymes, so songs can hand over on a shared word or a rhyme. Model baked in.
+ARG WHISPER_MODEL=small.en
+ENV RAVE_WHISPER_MODEL=$WHISPER_MODEL
+RUN pip install "faster-whisper>=1.1" "pronouncing>=0.2" \
+ && python -c "import os; from faster_whisper import WhisperModel; WhisperModel(os.environ['RAVE_WHISPER_MODEL'], device='cpu', compute_type='int8')"
+# Stem packs: 7-Zip unpacks zip/7z/rar/tar uploads. BS-RoFormer (via audio-separator) is the optional
+# best-quality vocal separator; torch stays pinned at 2.11 for beat_this, and the model is baked in.
+ENV RAVE_ROFORMER_DIR=/opt/models/audio-separator
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends 7zip \
+ && rm -rf /var/lib/apt/lists/*
+RUN if [ "$WITH_DEMUCS" = "1" ]; then \
+      printf 'torch==2.11.*\ntorchaudio==2.11.*\n' > /tmp/torch-pin.txt \
+   && apt-get update && apt-get install -y --no-install-recommends gcc g++ \
+   && pip install -c /tmp/torch-pin.txt "audio-separator[cpu]" audioread \
+   && apt-get purge -y gcc g++ && apt-get autoremove -y && rm -rf /var/lib/apt/lists/* \
+   && python -c "from audio_separator.separator import Separator; s = Separator(model_file_dir='/opt/models/audio-separator'); s.load_model(model_filename='model_bs_roformer_ep_317_sdr_12.9755.ckpt')"; \
+    fi
+# Every model is baked in above, so nothing needs the Hugging Face hub at runtime (it would only try to
+# rewrite its cache files, which the rave user can't).
+ENV HF_HUB_OFFLINE=1
 
 COPY rave ./rave
 COPY docker-entrypoint.sh /usr/local/bin/

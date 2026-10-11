@@ -1,0 +1,2252 @@
+{
+ "ref": "summermash16",
+ "bpm": 112.99917197610579,
+ "key": 0,
+ "minor": false,
+ "sources": {
+  "Beyonce - Formation": {
+   "bpm": 122.00486901303597,
+   "key": 5,
+   "minor": true
+  },
+  "Calvin Harris ft. Rihanna - This Is What You Came For": {
+   "bpm": 123.9955760688106,
+   "key": 9,
+   "minor": true
+  },
+  "DNCE - Cake By The Ocean": {
+   "bpm": 118.99619295620136,
+   "key": 4,
+   "minor": true
+  },
+  "Desiigner - Panda": {
+   "bpm": 73.17073170731705,
+   "key": 3,
+   "minor": true
+  },
+  "Drake - One Dance": {
+   "bpm": 103.99994773063071,
+   "key": 10,
+   "minor": false
+  },
+  "Drake - Summer Sixteen": {
+   "bpm": 71.42857142857356,
+   "key": 0,
+   "minor": true
+  },
+  "Fifth Harmony - Work from Home": {
+   "bpm": 104.99652716312762,
+   "key": 5,
+   "minor": true
+  },
+  "Flo Rida - My House": {
+   "bpm": 93.99721071915297,
+   "key": 7,
+   "minor": true
+  },
+  "G-Eazy & Bebe Rexha - Me, Myself & I": {
+   "bpm": 112.0040174379266,
+   "key": 5,
+   "minor": true
+  },
+  "Lukas Graham - 7 Years": {
+   "bpm": 120.007563652923,
+   "key": 10,
+   "minor": false
+  },
+  "Zara Larsson - Lush Life": {
+   "bpm": 96.77419354838861,
+   "key": 0,
+   "minor": false
+  },
+  "Zara Larsson & MNEK - Never Forget You": {
+   "bpm": 145.99533746249156,
+   "key": 7,
+   "minor": false
+  },
+  "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)": {
+   "bpm": 101.99809093752455,
+   "key": 10,
+   "minor": false
+  },
+  "Rihanna - Needed Me": {
+   "bpm": 111.11111111111128,
+   "key": 3,
+   "minor": false
+  },
+  "Rihanna ft. Drake - Work": {
+   "bpm": 90.90909090909138,
+   "key": 1,
+   "minor": true
+  },
+  "Justin Timberlake - Can't Stop The Feeling": {
+   "bpm": 112.99872724694961,
+   "key": 9,
+   "minor": true
+  },
+  "Twenty One Pilots - Stressed Out": {
+   "bpm": 84.99627138966154,
+   "key": 9,
+   "minor": true
+  },
+  "Zayn - Pillowtalk": {
+   "bpm": 124.99469339042523,
+   "key": 11,
+   "minor": false
+  },
+  "The Chainsmokers ft. Daya - Don't Let Me Down": {
+   "bpm": 81.08108108108163,
+   "key": 8,
+   "minor": true
+  }
+ },
+ "vocals": [
+  {
+   "t": 0.43314021288276183,
+   "beats": 26,
+   "conf": 0.757,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 29.54273987591467,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 14.238551108547208,
+   "beats": 5,
+   "conf": 0.741,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 165.99922111852283,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 16.89343781925191,
+   "beats": 3,
+   "conf": 0.621,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 103.90123333154654,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 18.48636984567473,
+   "beats": 5,
+   "conf": 0.584,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 31.216086043657363,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 21.14125655637943,
+   "beats": 5,
+   "conf": 0.555,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 57.68,
+   "shift": -4,
+   "stretch": 0.791
+  },
+  {
+   "t": 23.796143267084133,
+   "beats": 4,
+   "conf": 0.598,
+   "song": "Drake - One Dance",
+   "src_t": 57.260108876115005,
+   "shift": 1,
+   "stretch": 1.087
+  },
+  {
+   "t": 25.920052635647895,
+   "beats": 1,
+   "conf": 0.607,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 151.48257417781983,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 26.451029977788835,
+   "beats": 2,
+   "conf": 0.61,
+   "song": "G-Eazy & Bebe Rexha - Me, Myself & I",
+   "src_t": 51.350728510540584,
+   "shift": 5,
+   "stretch": 1.009
+  },
+  {
+   "t": 27.512984662070714,
+   "beats": 3,
+   "conf": 0.58,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 115.33530750296259,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 29.105916688493537,
+   "beats": 7,
+   "conf": 0.56,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 202.13192588101427,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 32.82275808348012,
+   "beats": 2,
+   "conf": 0.555,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 121.34,
+   "shift": -3,
+   "stretch": 0.791
+  },
+  {
+   "t": 33.884712767762004,
+   "beats": 4,
+   "conf": 0.541,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 185.504697633347,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 36.00862213632576,
+   "beats": 3,
+   "conf": 0.518,
+   "song": "Zara Larsson - Lush Life",
+   "src_t": 22.71,
+   "shift": 0,
+   "stretch": 1.168
+  },
+  {
+   "t": 37.601554162748585,
+   "beats": 2,
+   "conf": 0.473,
+   "song": "Flo Rida - My House",
+   "src_t": 135.0856767464898,
+   "shift": 3,
+   "stretch": 1.202
+  },
+  {
+   "t": 38.663508847030464,
+   "beats": 5,
+   "conf": 0.505,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 60.20882550449769,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 41.318395557735165,
+   "beats": 2,
+   "conf": 0.486,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 189.34486065931407,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 42.380350242017045,
+   "beats": 3,
+   "conf": 0.513,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 101.98115181856299,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 43.97328226843987,
+   "beats": 2,
+   "conf": 0.493,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 118.59231454709996,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 45.035236952721746,
+   "beats": 1,
+   "conf": 0.49,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 44.60796973667492,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 45.56621429486269,
+   "beats": 2,
+   "conf": 0.429,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 128.0192102199924,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 46.62816897914457,
+   "beats": 2,
+   "conf": 0.431,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 83.37889699039069,
+   "shift": 5,
+   "stretch": 0.95
+  },
+  {
+   "t": 47.69012366342645,
+   "beats": 1,
+   "conf": 0.525,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 129.66309833430745,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 48.22110100556739,
+   "beats": 6,
+   "conf": 0.462,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 151.42325077788917,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 51.40696505841303,
+   "beats": 1,
+   "conf": 0.463,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 63.71440233835355,
+   "shift": 5,
+   "stretch": 0.95
+  },
+  {
+   "t": 51.93794240055397,
+   "beats": 4,
+   "conf": 0.535,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 33.338237729401435,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 54.06185176911773,
+   "beats": 4,
+   "conf": 0.512,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 179.09949267666937,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 56.185761137681496,
+   "beats": 5,
+   "conf": 0.506,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 112.30639235679175,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 58.8406478483862,
+   "beats": 3,
+   "conf": 0.595,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 217.59706615763434,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 60.43357987480901,
+   "beats": 5,
+   "conf": 0.494,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 151.62978996445662,
+   "shift": 0,
+   "stretch": 1.329
+  },
+  {
+   "t": 63.088466585513714,
+   "beats": 1,
+   "conf": 0.475,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 154.9778262362695,
+   "shift": -6,
+   "stretch": 0.95
+  },
+  {
+   "t": 63.61944392765466,
+   "beats": 2,
+   "conf": 0.461,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 81.579370990593,
+   "shift": 4,
+   "stretch": 0.774
+  },
+  {
+   "t": 64.68139861193653,
+   "beats": 1,
+   "conf": 0.42,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 109.74150472888603,
+   "shift": 1,
+   "stretch": 1.0
+  },
+  {
+   "t": 65.21237595407747,
+   "beats": 6,
+   "conf": 0.496,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 119.10327426477593,
+   "shift": 3,
+   "stretch": 0.942
+  },
+  {
+   "t": 68.39824000692312,
+   "beats": 2,
+   "conf": 0.416,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 143.63614730598513,
+   "shift": 4,
+   "stretch": 0.774
+  },
+  {
+   "t": 69.460194691205,
+   "beats": 6,
+   "conf": 0.438,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 207.097727935553,
+   "shift": 3,
+   "stretch": 0.942
+  },
+  {
+   "t": 72.64605874405065,
+   "beats": 2,
+   "conf": 0.462,
+   "song": "Flo Rida - My House",
+   "src_t": 63.59419366325043,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 73.70801342833252,
+   "beats": 6,
+   "conf": 0.422,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 44.4,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 76.89387748117817,
+   "beats": 2,
+   "conf": 0.413,
+   "song": "Beyonce - Formation",
+   "src_t": 30.517812602033846,
+   "shift": 4,
+   "stretch": 0.926
+  },
+  {
+   "t": 77.95583216546005,
+   "beats": 2,
+   "conf": 0.408,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 5.729354005423522,
+   "shift": 5,
+   "stretch": 0.95
+  },
+  {
+   "t": 79.01778684974192,
+   "beats": 3,
+   "conf": 0.445,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 175.68,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 80.61071887616475,
+   "beats": 1,
+   "conf": 0.431,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 191.0,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 81.14169621830568,
+   "beats": 3,
+   "conf": 0.46,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 191.5123372428386,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 82.73462824472851,
+   "beats": 4,
+   "conf": 0.465,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 71.51098563145364,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 84.85853761329227,
+   "beats": 4,
+   "conf": 0.493,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 175.16561425987388,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 86.98244698185603,
+   "beats": 2,
+   "conf": 0.438,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 111.33444302461237,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 88.04440166613792,
+   "beats": 5,
+   "conf": 0.471,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 93.89987464636462,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 90.69928837684262,
+   "beats": 2,
+   "conf": 0.463,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 37.19439190408736,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 91.76124306112449,
+   "beats": 5,
+   "conf": 0.503,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 175.28099350654935,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 94.41612977182919,
+   "beats": 3,
+   "conf": 0.459,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 155.33605616892592,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 96.00906179825202,
+   "beats": 1,
+   "conf": 0.439,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 152.45035064053337,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 96.54003914039295,
+   "beats": 3,
+   "conf": 0.463,
+   "song": "Desiigner - Panda",
+   "src_t": 25.24,
+   "shift": -5,
+   "stretch": 0.772
+  },
+  {
+   "t": 98.13297116681578,
+   "beats": 2,
+   "conf": 0.433,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 194.02338083079852,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 99.19492585109765,
+   "beats": 8,
+   "conf": 0.526,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 77.35175938245025,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 103.44274458822518,
+   "beats": 6,
+   "conf": 0.523,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 84.15825339566764,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 106.62860864107083,
+   "beats": 3,
+   "conf": 0.577,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 113.73929213199204,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 108.22154066749364,
+   "beats": 3,
+   "conf": 0.551,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 164.74799703150552,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 109.81447269391646,
+   "beats": 4,
+   "conf": 0.593,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 185.3366176683984,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 111.93838206248023,
+   "beats": 4,
+   "conf": 0.575,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 201.6009464491055,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 114.06229143104399,
+   "beats": 5,
+   "conf": 0.548,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 166.96699758123637,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 116.71717814174869,
+   "beats": 3,
+   "conf": 0.524,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 164.74799703150552,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 118.3101101681715,
+   "beats": 4,
+   "conf": 0.539,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 185.3366176683984,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 120.43401953673526,
+   "beats": 5,
+   "conf": 0.638,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 17.609671451322868,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 123.08890624743997,
+   "beats": 2,
+   "conf": 0.493,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 40.520383005181536,
+   "shift": 4,
+   "stretch": 0.95
+  },
+  {
+   "t": 124.15086093172185,
+   "beats": 4,
+   "conf": 0.502,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 112.30639235679175,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 126.27477030028561,
+   "beats": 5,
+   "conf": 0.536,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 136.3071861743322,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 128.9296570109903,
+   "beats": 4,
+   "conf": 0.446,
+   "song": "Zara Larsson - Lush Life",
+   "src_t": 24.24,
+   "shift": 0,
+   "stretch": 1.168
+  },
+  {
+   "t": 131.05356637955407,
+   "beats": 3,
+   "conf": 0.464,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 148.10022337176852,
+   "shift": 1,
+   "stretch": 1.329
+  },
+  {
+   "t": 132.6464984059769,
+   "beats": 3,
+   "conf": 0.413,
+   "song": "Rihanna - Needed Me",
+   "src_t": 102.98,
+   "shift": -4,
+   "stretch": 1.017
+  },
+  {
+   "t": 134.23943043239973,
+   "beats": 4,
+   "conf": 0.517,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 120.1032112383075,
+   "shift": 3,
+   "stretch": 0.942
+  },
+  {
+   "t": 136.36333980096347,
+   "beats": 2,
+   "conf": 0.439,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 28.80087253891129,
+   "shift": 1,
+   "stretch": 1.329
+  },
+  {
+   "t": 137.42529448524536,
+   "beats": 6,
+   "conf": 0.449,
+   "song": "G-Eazy & Bebe Rexha - Me, Myself & I",
+   "src_t": 15.994853867966373,
+   "shift": 5,
+   "stretch": 1.009
+  },
+  {
+   "t": 140.611158538091,
+   "beats": 2,
+   "conf": 0.441,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 44.04,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 141.67311322237288,
+   "beats": 5,
+   "conf": 0.451,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 44.4,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 144.3279999330776,
+   "beats": 2,
+   "conf": 0.433,
+   "song": "Rihanna ft. Drake - Work",
+   "src_t": 78.64,
+   "shift": -4,
+   "stretch": 1.243
+  },
+  {
+   "t": 145.38995461735945,
+   "beats": 2,
+   "conf": 0.388,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 52.05903248099095,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 146.45190930164134,
+   "beats": 2,
+   "conf": 0.433,
+   "song": "Beyonce - Formation",
+   "src_t": 123.46492276030393,
+   "shift": 4,
+   "stretch": 0.926
+  },
+  {
+   "t": 147.51386398592322,
+   "beats": 2,
+   "conf": 0.393,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 196.09842122670585,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 148.5758186702051,
+   "beats": 2,
+   "conf": 0.448,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 191.0,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 149.637773354487,
+   "beats": 2,
+   "conf": 0.466,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 4.0,
+   "shift": -3,
+   "stretch": 0.791
+  },
+  {
+   "t": 150.69972803876885,
+   "beats": 4,
+   "conf": 0.475,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 14.14,
+   "shift": -4,
+   "stretch": 0.791
+  },
+  {
+   "t": 152.82363740733263,
+   "beats": 3,
+   "conf": 0.494,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 175.73706173172008,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 154.41656943375546,
+   "beats": 3,
+   "conf": 0.472,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 179.59946116343517,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 156.00950146017826,
+   "beats": 8,
+   "conf": 0.554,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 227.45302650083218,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 160.2573201973058,
+   "beats": 5,
+   "conf": 0.585,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 67.41968458485927,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 162.9122069080105,
+   "beats": 2,
+   "conf": 0.5,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 102.44,
+   "shift": -2,
+   "stretch": 0.791
+  },
+  {
+   "t": 163.97416159229238,
+   "beats": 5,
+   "conf": 0.527,
+   "song": "Flo Rida - My House",
+   "src_t": 61.0409264102776,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 166.62904830299706,
+   "beats": 7,
+   "conf": 0.551,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 163.9014067835819,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 170.34588969798367,
+   "beats": 4,
+   "conf": 0.547,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 175.73706173172008,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 172.4697990665474,
+   "beats": 5,
+   "conf": 0.576,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 56.875987587710235,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 175.12468577725213,
+   "beats": 4,
+   "conf": 0.562,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 3.576974278156564,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 177.24859514581587,
+   "beats": 2,
+   "conf": 0.568,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 182.59443139387452,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 178.31054983009776,
+   "beats": 4,
+   "conf": 0.437,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 177.4514041472587,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 180.43445919866153,
+   "beats": 4,
+   "conf": 0.396,
+   "song": "Drake - One Dance",
+   "src_t": 19.76009002897735,
+   "shift": 1,
+   "stretch": 1.087
+  },
+  {
+   "t": 182.55836856722527,
+   "beats": 2,
+   "conf": 0.405,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 14.165206985305053,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 183.62032325150716,
+   "beats": 2,
+   "conf": 0.416,
+   "song": "Rihanna - Needed Me",
+   "src_t": 146.22,
+   "shift": -3,
+   "stretch": 1.017
+  },
+  {
+   "t": 184.68227793578905,
+   "beats": 6,
+   "conf": 0.521,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 107.73481258202214,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 187.86814198863468,
+   "beats": 2,
+   "conf": 0.429,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 20.109513885151763,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 188.93009667291656,
+   "beats": 2,
+   "conf": 0.392,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 86.37840972489957,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 189.99205135719845,
+   "beats": 2,
+   "conf": 0.397,
+   "song": "G-Eazy & Bebe Rexha - Me, Myself & I",
+   "src_t": 230.27288200477977,
+   "shift": 4,
+   "stretch": 1.009
+  },
+  {
+   "t": 191.05400604148033,
+   "beats": 3,
+   "conf": 0.433,
+   "song": "Flo Rida - My House",
+   "src_t": 153.59686433054284,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 192.64693806790314,
+   "beats": 4,
+   "conf": 0.45,
+   "song": "Flo Rida - My House",
+   "src_t": 62.317560036764014,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 194.7708474364669,
+   "beats": 2,
+   "conf": 0.489,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 115.19095682606235,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 195.8328021207488,
+   "beats": 3,
+   "conf": 0.491,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 67.41968458485927,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 197.4257341471716,
+   "beats": 4,
+   "conf": 0.472,
+   "song": "Flo Rida - My House",
+   "src_t": 62.95587685000722,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 199.54964351573537,
+   "beats": 4,
+   "conf": 0.471,
+   "song": "Flo Rida - My House",
+   "src_t": 60.40260959703439,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 201.67355288429914,
+   "beats": 5,
+   "conf": 0.448,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 194.59851576640852,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 204.32843959500383,
+   "beats": 3,
+   "conf": 0.456,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 14.56,
+   "shift": -4,
+   "stretch": 0.791
+  },
+  {
+   "t": 205.92137162142666,
+   "beats": 3,
+   "conf": 0.546,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 175.73706173172008,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 207.51430364784946,
+   "beats": 5,
+   "conf": 0.526,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 186.5945636967979,
+   "shift": 4,
+   "stretch": 1.076
+  },
+  {
+   "t": 210.16919035855418,
+   "beats": 1,
+   "conf": 0.483,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 172.3,
+   "shift": 1,
+   "stretch": 1.394
+  },
+  {
+   "t": 210.70016770069512,
+   "beats": 6,
+   "conf": 0.498,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 64.38269253360187,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 213.88603175354075,
+   "beats": 2,
+   "conf": 0.471,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 141.0692912115042,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 214.94798643782264,
+   "beats": 2,
+   "conf": 0.445,
+   "song": "Rihanna ft. Drake - Work",
+   "src_t": 194.76,
+   "shift": -4,
+   "stretch": 1.243
+  },
+  {
+   "t": 216.00994112210452,
+   "beats": 5,
+   "conf": 0.515,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 111.80373920656498,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 218.6648278328092,
+   "beats": 5,
+   "conf": 0.534,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 228.42080296354573,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 221.31971454351392,
+   "beats": 8,
+   "conf": 0.483,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 148.50300325822718,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 225.56753328064144,
+   "beats": 7,
+   "conf": 0.548,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 184.60960462802444,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 229.28437467562802,
+   "beats": 3,
+   "conf": 0.67,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 230.27383577217978,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 230.87730670205084,
+   "beats": 2,
+   "conf": 0.572,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 226.09653043265257,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 231.93926138633273,
+   "beats": 2,
+   "conf": 0.521,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 91.88,
+   "shift": -4,
+   "stretch": 0.791
+  },
+  {
+   "t": 233.00121607061462,
+   "beats": 1,
+   "conf": 0.645,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 144.04,
+   "shift": -2,
+   "stretch": 0.791
+  },
+  {
+   "t": 233.53219341275556,
+   "beats": 2,
+   "conf": 0.584,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 51.989384932922576,
+   "shift": -6,
+   "stretch": 0.774
+  },
+  {
+   "t": 234.59414809703742,
+   "beats": 3,
+   "conf": 0.491,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 59.797853475918934,
+   "shift": -6,
+   "stretch": 0.774
+  },
+  {
+   "t": 236.18708012346025,
+   "beats": 2,
+   "conf": 0.506,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 58.56493739018267,
+   "shift": -6,
+   "stretch": 0.774
+  }
+ ],
+ "harmony": [
+  {
+   "t": 0.43314021288276183,
+   "beats": 3,
+   "conf": 0.545,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 5.9214949754746735,
+   "shift": 2,
+   "stretch": 1.108
+  },
+  {
+   "t": 2.0260722393055826,
+   "beats": 13,
+   "conf": 0.606,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 16.289124712940186,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 8.928777687137806,
+   "beats": 2,
+   "conf": 0.609,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 6.200515506673305,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 9.990732371419686,
+   "beats": 2,
+   "conf": 0.605,
+   "song": "Flo Rida - My House",
+   "src_t": 21.46528398919866,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 11.052687055701567,
+   "beats": 7,
+   "conf": 0.586,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 16.82010414484897,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 14.76952845068815,
+   "beats": 6,
+   "conf": 0.625,
+   "song": "Flo Rida - My House",
+   "src_t": 154.87349795702926,
+   "shift": 2,
+   "stretch": 1.202
+  },
+  {
+   "t": 17.95539250353379,
+   "beats": 2,
+   "conf": 0.629,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 40.60822184254869,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 19.01734718781567,
+   "beats": 10,
+   "conf": 0.705,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 16.289124712940186,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 24.327120609225073,
+   "beats": 6,
+   "conf": 0.602,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 6.610364742475739,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 27.512984662070714,
+   "beats": 43,
+   "conf": 0.717,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 16.289124712940186,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 50.34501037413115,
+   "beats": 12,
+   "conf": 0.662,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 115.58227847988265,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 56.71673847982243,
+   "beats": 2,
+   "conf": 0.591,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 165.82863684923797,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 57.77869316410432,
+   "beats": 2,
+   "conf": 0.62,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 47.46869261855626,
+   "shift": 5,
+   "stretch": 0.774
+  },
+  {
+   "t": 58.8406478483862,
+   "beats": 44,
+   "conf": 0.71,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 47.61691119555839,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 82.20365090258757,
+   "beats": 11,
+   "conf": 0.751,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 79.47567711008539,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 88.04440166613792,
+   "beats": 8,
+   "conf": 0.703,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 17.351083576757752,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 92.29222040326543,
+   "beats": 7,
+   "conf": 0.659,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 6.610364742475739,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 96.00906179825202,
+   "beats": 6,
+   "conf": 0.656,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 29.54273987591467,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 99.19492585109765,
+   "beats": 4,
+   "conf": 0.599,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 4.610490795412625,
+   "shift": 2,
+   "stretch": 0.942
+  },
+  {
+   "t": 101.31883521966142,
+   "beats": 8,
+   "conf": 0.761,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 98.59093665880158,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 105.56665395678894,
+   "beats": 12,
+   "conf": 0.751,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 153.81279757731502,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 111.93838206248023,
+   "beats": 11,
+   "conf": 0.757,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 151.6888798496799,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 117.77913282603056,
+   "beats": 41,
+   "conf": 0.697,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 115.05129904797386,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 139.5492038538091,
+   "beats": 11,
+   "conf": 0.79,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 153.81279757731502,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 145.38995461735945,
+   "beats": 24,
+   "conf": 0.778,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 204.2558436086494,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 158.13341082874203,
+   "beats": 19,
+   "conf": 0.779,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 208.5036790639197,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 168.2219803294199,
+   "beats": 63,
+   "conf": 0.776,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 165.49434507930823,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 201.67355288429914,
+   "beats": 21,
+   "conf": 0.77,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 137.35243518814275,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 212.82407706925886,
+   "beats": 24,
+   "conf": 0.77,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 210.09661735964602,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 225.56753328064144,
+   "beats": 5,
+   "conf": 0.603,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 23.85947930914797,
+   "shift": 0,
+   "stretch": 1.329
+  },
+  {
+   "t": 228.22241999134616,
+   "beats": 2,
+   "conf": 0.495,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 232.29190881439985,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 229.28437467562802,
+   "beats": 4,
+   "conf": 0.536,
+   "song": "Calvin Harris ft. Rihanna - This Is What You Came For",
+   "src_t": 10.187210621644008,
+   "shift": 0,
+   "stretch": 0.911
+  },
+  {
+   "t": 231.4082840441918,
+   "beats": 2,
+   "conf": 0.574,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 67.89970496310517,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 232.47023872847367,
+   "beats": 2,
+   "conf": 0.65,
+   "song": "Zayn - Pillowtalk",
+   "src_t": 15.097463356057805,
+   "shift": 1,
+   "stretch": 0.904
+  },
+  {
+   "t": 233.53219341275556,
+   "beats": 7,
+   "conf": 0.3
+  }
+ ],
+ "drums": [
+  {
+   "t": 0.43314021288276183,
+   "beats": 4,
+   "conf": 0.643,
+   "song": "Drake - Summer Sixteen",
+   "src_t": 136.74,
+   "shift": 0,
+   "stretch": 0.791
+  },
+  {
+   "t": 2.557049581446523,
+   "beats": 4,
+   "conf": 0.615,
+   "song": "Drake - One Dance",
+   "src_t": 49.18318173980843,
+   "shift": 0,
+   "stretch": 1.087
+  },
+  {
+   "t": 4.680958950010284,
+   "beats": 3,
+   "conf": 0.534,
+   "song": "Rihanna ft. Drake - Work",
+   "src_t": 84.52,
+   "shift": 0,
+   "stretch": 1.243
+  },
+  {
+   "t": 6.273890976433106,
+   "beats": 2,
+   "conf": 0.608,
+   "song": "Drake - One Dance",
+   "src_t": 112.06782872962388,
+   "shift": 0,
+   "stretch": 1.087
+  },
+  {
+   "t": 7.335845660714986,
+   "beats": 1,
+   "conf": 0.803,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 73.29454075857677,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 7.866823002855926,
+   "beats": 2,
+   "conf": 0.753,
+   "song": "Beyonce - Formation",
+   "src_t": 28.55067799550961,
+   "shift": 0,
+   "stretch": 0.926
+  },
+  {
+   "t": 8.928777687137806,
+   "beats": 4,
+   "conf": 0.8,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 41.507312272588386,
+   "shift": 0,
+   "stretch": 1.329
+  },
+  {
+   "t": 11.052687055701567,
+   "beats": 8,
+   "conf": 0.831,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 93.28114233971375,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 15.300505792829089,
+   "beats": 10,
+   "conf": 0.892,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 93.28114233971375,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 20.610279214238492,
+   "beats": 8,
+   "conf": 0.813,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 223.90208258927439,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 24.858097951366013,
+   "beats": 2,
+   "conf": 0.897,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 223.90208258927439,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 25.920052635647895,
+   "beats": 6,
+   "conf": 0.883,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 14.80527461405605,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 29.105916688493537,
+   "beats": 6,
+   "conf": 0.876,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 223.90208258927439,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 32.29178074133918,
+   "beats": 10,
+   "conf": 0.835,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 21.067939600119235,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 37.601554162748585,
+   "beats": 1,
+   "conf": 0.92,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 117.10004641469627,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 38.13253150488953,
+   "beats": 17,
+   "conf": 0.927,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 116.51180011078503,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 47.15914632128551,
+   "beats": 4,
+   "conf": 0.905,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 118.27653902251872,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 49.28305568984927,
+   "beats": 11,
+   "conf": 0.87,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 38.059281421200296,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 55.12380645339962,
+   "beats": 2,
+   "conf": 0.91,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 42.83809630837935,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 56.185761137681496,
+   "beats": 7,
+   "conf": 0.931,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 47.08593176364961,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 59.90260253266808,
+   "beats": 11,
+   "conf": 0.958,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 47.61691119555839,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 65.74335329621842,
+   "beats": 9,
+   "conf": 0.911,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 54.51964381037257,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 70.52214937548688,
+   "beats": 1,
+   "conf": 0.895,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 78.27579035655539,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 71.05312671762782,
+   "beats": 5,
+   "conf": 0.901,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 197.884090425744,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 73.70801342833252,
+   "beats": 7,
+   "conf": 0.869,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 62.48433528900432,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 77.42485482331911,
+   "beats": 5,
+   "conf": 0.886,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 142.66222950723056,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 80.07974153402381,
+   "beats": 12,
+   "conf": 0.842,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 60.36041756136919,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 86.45146963971509,
+   "beats": 6,
+   "conf": 0.93,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 58.275416023573726,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 89.63733369256073,
+   "beats": 2,
+   "conf": 0.974,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 68.86384949397579,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 90.69928837684262,
+   "beats": 3,
+   "conf": 0.969,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 104.10421966180257,
+   "shift": 0,
+   "stretch": 0.942
+  },
+  {
+   "t": 92.29222040326543,
+   "beats": 8,
+   "conf": 0.964,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 85.39576823675347,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 96.54003914039295,
+   "beats": 3,
+   "conf": 0.931,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 119.10327426477593,
+   "shift": 0,
+   "stretch": 0.942
+  },
+  {
+   "t": 98.13297116681578,
+   "beats": 13,
+   "conf": 0.915,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 95.40506006734888,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 105.035676614648,
+   "beats": 7,
+   "conf": 0.95,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 116.51180011078503,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 108.75251800963458,
+   "beats": 12,
+   "conf": 0.934,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 115.92355380687381,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 115.12424611532586,
+   "beats": 5,
+   "conf": 0.917,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 118.27653902251872,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 117.77913282603056,
+   "beats": 3,
+   "conf": 0.924,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 192.5742961066562,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 119.37206485245339,
+   "beats": 7,
+   "conf": 0.881,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 40.18319914883543,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 123.08890624743997,
+   "beats": 8,
+   "conf": 0.895,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 46.023972899832046,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 127.3367249845675,
+   "beats": 12,
+   "conf": 0.944,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 47.08593176364961,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 133.70845309025879,
+   "beats": 6,
+   "conf": 0.906,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 130.98068200523733,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 136.89431714310442,
+   "beats": 1,
+   "conf": 0.924,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 81.3620257440279,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 137.42529448524536,
+   "beats": 3,
+   "conf": 0.903,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 101.02652039606504,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 139.0182265116682,
+   "beats": 5,
+   "conf": 0.899,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 144.7861472348657,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 141.67311322237288,
+   "beats": 15,
+   "conf": 0.877,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 138.94537348386908,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 149.637773354487,
+   "beats": 7,
+   "conf": 0.862,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 163.9014067835819,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 153.35461474947357,
+   "beats": 4,
+   "conf": 0.866,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 84.15825339566764,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 155.4785241180373,
+   "beats": 6,
+   "conf": 0.899,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 197.35311099383523,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 158.66438817088297,
+   "beats": 10,
+   "conf": 0.869,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 138.94537348386908,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 163.97416159229238,
+   "beats": 6,
+   "conf": 0.783,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 78.41371824626782,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 167.160025645138,
+   "beats": 5,
+   "conf": 0.767,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 113.4583607522475,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 169.81491235584272,
+   "beats": 4,
+   "conf": 0.654,
+   "song": "Fifth Harmony - Work from Home",
+   "src_t": 98.59165303248292,
+   "shift": 0,
+   "stretch": 1.076
+  },
+  {
+   "t": 171.93882172440647,
+   "beats": 1,
+   "conf": 0.712,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 183.08946204954572,
+   "shift": 0,
+   "stretch": 0.774
+  },
+  {
+   "t": 172.4697990665474,
+   "beats": 2,
+   "conf": 0.731,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 83.22325910490802,
+   "shift": 0,
+   "stretch": 0.774
+  },
+  {
+   "t": 173.5317537508293,
+   "beats": 4,
+   "conf": 0.73,
+   "song": "G-Eazy & Bebe Rexha - Me, Myself & I",
+   "src_t": 167.06086370441983,
+   "shift": 0,
+   "stretch": 1.009
+  },
+  {
+   "t": 175.65566311939307,
+   "beats": 18,
+   "conf": 0.861,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 172.9280571260312,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 185.21325527793,
+   "beats": 2,
+   "conf": 0.866,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 39.12124028501786,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 186.27520996221187,
+   "beats": 5,
+   "conf": 0.741,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 211.45022113442744,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 188.93009667291656,
+   "beats": 7,
+   "conf": 0.785,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 160.100749786908,
+   "shift": 0,
+   "stretch": 1.329
+  },
+  {
+   "t": 192.64693806790314,
+   "beats": 5,
+   "conf": 0.872,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 175.9246768058188,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 195.30182477860785,
+   "beats": 3,
+   "conf": 0.865,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 137.51152359370428,
+   "shift": 0,
+   "stretch": 1.329
+  },
+  {
+   "t": 196.89475680503068,
+   "beats": 6,
+   "conf": 0.885,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 171.11279620717178,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 200.0806208578763,
+   "beats": 6,
+   "conf": 0.872,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 59.298458697551624,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 203.26648491072194,
+   "beats": 2,
+   "conf": 0.818,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 157.1007950806596,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 204.32843959500383,
+   "beats": 3,
+   "conf": 0.796,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 114.52031961606508,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 205.92137162142666,
+   "beats": 2,
+   "conf": 0.767,
+   "song": "The Chainsmokers ft. Daya - Don't Let Me Down",
+   "src_t": 125.06,
+   "shift": 0,
+   "stretch": 1.394
+  },
+  {
+   "t": 206.98332630570854,
+   "beats": 2,
+   "conf": 0.803,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 150.6300857376361,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 208.0452809899904,
+   "beats": 3,
+   "conf": 0.805,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 67.26315017618337,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 209.63821301641323,
+   "beats": 3,
+   "conf": 0.832,
+   "song": "Twenty One Pilots - Stressed Out",
+   "src_t": 184.8077159357246,
+   "shift": 0,
+   "stretch": 1.329
+  },
+  {
+   "t": 211.23114504283606,
+   "beats": 3,
+   "conf": 0.897,
+   "song": "Mike Posner - I Took A Pill In Ibiza (Seeb Remix)",
+   "src_t": 170.63046007061777,
+   "shift": 0,
+   "stretch": 1.108
+  },
+  {
+   "t": 212.82407706925886,
+   "beats": 5,
+   "conf": 0.907,
+   "song": "DNCE - Cake By The Ocean",
+   "src_t": 137.83442064218585,
+   "shift": 0,
+   "stretch": 0.95
+  },
+  {
+   "t": 215.47896377996358,
+   "beats": 3,
+   "conf": 0.907,
+   "song": "Zara Larsson - Lush Life",
+   "src_t": 177.92,
+   "shift": 0,
+   "stretch": 1.168
+  },
+  {
+   "t": 217.0718958063864,
+   "beats": 8,
+   "conf": 0.922,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 197.35311099383523,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 221.31971454351392,
+   "beats": 4,
+   "conf": 0.866,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 40.18319914883543,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 223.44362391207767,
+   "beats": 6,
+   "conf": 0.833,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 167.61826280694336,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 226.62948796492333,
+   "beats": 2,
+   "conf": 0.811,
+   "song": "Justin Timberlake - Can't Stop The Feeling",
+   "src_t": 228.14991804454465,
+   "shift": 0,
+   "stretch": 1.0
+  },
+  {
+   "t": 227.69144264920521,
+   "beats": 4,
+   "conf": 0.843,
+   "song": "Lukas Graham - 7 Years",
+   "src_t": 126.60280156626261,
+   "shift": 0,
+   "stretch": 0.942
+  },
+  {
+   "t": 229.81535201776896,
+   "beats": 1,
+   "conf": 0.8,
+   "song": "Zara Larsson & MNEK - Never Forget You",
+   "src_t": 130.8960144200437,
+   "shift": 0,
+   "stretch": 0.774
+  },
+  {
+   "t": 230.3463293599099,
+   "beats": 3,
+   "conf": 0.769,
+   "song": "Desiigner - Panda",
+   "src_t": 223.65,
+   "shift": 0,
+   "stretch": 0.772
+  },
+  {
+   "t": 231.93926138633273,
+   "beats": 10,
+   "conf": 0.3
+  }
+ ]
+}

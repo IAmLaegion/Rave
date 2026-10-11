@@ -1,0 +1,24 @@
+Rave cue sheet
+
+Engine: DJ Earworm
+Tempo 100.0 BPM, key Bbm (3A), length 125s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 653s
+
+Songs:
+  1. fire-stems-e202d40c10 [base]: 100.0 BPM C#m (12A) -> x1.000, -3 st; chorus at bar 77
+  2. runaway-stems-52678cd0c1: 126.0 BPM C# (3B) -> x0.794, +0 st; chorus at bar 44
+
+Arrangement:
+  0:00.0   4 bars  Intro
+  0:09.6   4 bars  Verse 1: fire-stems-e202d40c10
+  0:19.2   4 bars  Verse 1: runaway-stems-52678cd0c1
+  0:28.8   4 bars  Chorus 1: runaway-stems-52678cd0c1
+  0:38.4   4 bars  Chorus 1: runaway-stems-52678cd0c1
+  0:48.0   4 bars  Bridge: fire-stems-e202d40c10
+  0:57.6   4 bars  Bridge: fire-stems-e202d40c10
+  1:07.2   2 bars  Final chorus: 2 voices
+  1:12.0   2 bars  Final chorus: 2 voices  "it's it's more"
+  1:16.8   2 bars  Final chorus: 2 voices  "it's how it's how"
+  1:21.6   2 bars  Final chorus: 2 voices  "it's more if that's"
+  1:26.4   8 bars  Final chorus: everyone  "the way it's gonna be leave your shiny ..."
+  1:45.6   8 bars  Outro

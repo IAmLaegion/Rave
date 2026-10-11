@@ -1,0 +1,17 @@
+Rave cue sheet
+
+Engine: rave.dj
+Tempo 126.0 BPM, key C# (3B), length 153s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 186s
+
+Songs:
+  1. Galantis - Runaway (U & I) [base]: 126.0 BPM C# (3B) -> x1.000, +0 st; chorus at bar 44
+  2. Peking Duk - Fire: 100.0 BPM C#m (12A) -> x1.260, -3 st; chorus at bar 77
+
+Arrangement:
+  0:00.0   4 bars  Intro (seed 7)
+  0:07.6  24 bars  Galantis - Runaway (U & I)
+  0:53.3  16 bars  Peking Duk - Fire over Galantis - Runaway (U & I)
+  1:23.8   8 bars  Peking Duk - Fire over Galantis - Runaway (U & I)
+  1:39.0  24 bars  Galantis - Runaway (U & I)
+  2:24.8   4 bars  Outro

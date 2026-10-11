@@ -1,2 +1,9 @@
 __pycache__/
 test_songs/
+
+# Development renders and logs (large, regenerable)
+dev/**/*.mp3
+dev/**/*.wav
+dev/**/*.flac
+dev/**/*.log
+dev/**/__pycache__/

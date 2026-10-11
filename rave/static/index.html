@@ -51,6 +51,14 @@ header { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; fle
 
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 20px;
   backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); margin-bottom: 18px; }
+/* Phones: mobile Chromium (Brave, Chrome) can fail to paint a backdrop-blurred card over the blurred,
+   blended background, leaving a dark box with just the text cursor showing. No glass there: a solid
+   card, and a cheaper background. */
+@media (hover: none), (max-width: 760px) {
+  .card { backdrop-filter: none; -webkit-backdrop-filter: none; background: #14111d; }
+  .blobs { filter: blur(48px); }
+  .blobs i { mix-blend-mode: normal; animation: none; }
+}
 .card h2 { font: 700 15px var(--display); text-transform: uppercase; letter-spacing: .08em; margin: 0; }
 .card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
 .count { font: 700 13px var(--display); padding: 4px 10px; border-radius: 99px; border: 1px solid var(--line-hot); color: var(--muted); }
@@ -123,6 +131,12 @@ header { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; fle
 .x:hover { color: var(--hot); background: rgba(255, 61, 154, .1); }
 .ghost { border: 2px dashed var(--line); border-radius: 18px; padding: 20px; text-align: center; color: var(--dim); font-weight: 500; }
 
+.engines { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin-top: 14px; }
+.engine { padding: 10px 12px; border-radius: 14px; border: 1px solid var(--line-hot); background: rgba(0, 0, 0, .25); color: var(--ink); font-weight: 700; font-size: 14px; cursor: pointer; text-align: left; }
+.engine:hover { border-color: var(--vio); }
+.engine[aria-pressed="true"] { background: rgba(255, 61, 154, .14); border-color: var(--hot); color: var(--hot); box-shadow: 0 0 14px rgba(255, 61, 154, .25); }
+.engine-blurb { margin: 8px 2px 0; color: var(--muted); font-size: 13.5px; line-height: 1.45; min-height: 2.9em; }
+.summary-engine { color: var(--dim); font-weight: 500; font-size: 13px; }
 details.settings { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
 details.settings summary { cursor: pointer; color: var(--muted); font-weight: 700; list-style: none; display: flex; align-items: center; gap: 8px; }
 details.settings summary::before { content: "+"; font: 700 16px var(--display); color: var(--hot); width: 16px; transition: transform .2s; }
@@ -133,6 +147,8 @@ details.settings[open] summary::before { transform: rotate(45deg); }
 .field input:focus, .field select:focus { border-color: var(--vio); }
 .field select option { background: #1a1625; }
 .checks { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.pillselect { padding: 8px 12px; border-radius: 99px; border: 1px solid var(--line-hot); background: rgba(0, 0, 0, .35); color: var(--ink); font-size: 14px; }
+.pillselect option { background: #1a1625; }
 .check { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; padding: 8px 14px; border-radius: 99px; border: 1px solid var(--line-hot); font-weight: 500; font-size: 14px; user-select: none; }
 .check input { display: none; }
 .check:has(input:checked) { background: rgba(200, 255, 77, .12); border-color: var(--lime); color: var(--lime); }
@@ -200,8 +216,8 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
   <header>
     <div class="eq" aria-hidden="true"><b></b><b></b><b></b><b></b></div>
     <h1 class="logo"><span>rave</span></h1>
-    <span class="sticker">riff-off mode</span>
-    <p class="tagline">Pick two or more songs. We split out the voices, lock them to one beat and key, and stage an a cappella showdown that ends with every chorus at once.</p>
+    <span class="sticker">song mashups</span>
+    <p class="tagline">Smash your favorite songs into one.</p>
   </header>
 
   <section class="card" aria-label="Find songs">
@@ -212,6 +228,8 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22Zm5 15.9a.7.7 0 0 1-.9.2c-2.6-1.6-5.8-1.9-9.6-1a.7.7 0 1 1-.3-1.3c4.2-1 7.7-.6 10.6 1.2.3.2.4.6.2.9Zm1.3-3a.9.9 0 0 1-1.2.3c-2.9-1.8-7.4-2.3-10.9-1.3a.9.9 0 0 1-.5-1.7c4-1.2 9-.6 12.3 1.5.4.2.5.8.3 1.2Zm.1-3.1C14.9 8.7 9 8.5 5.6 9.5a1 1 0 1 1-.6-2c3.9-1.2 10.4-1 14.4 1.4a1 1 0 0 1-1 1.8Z"/></svg>Spotify</button>
       <button class="tab" role="tab" data-tab="upload" aria-selected="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4m0 0-5 5m5-5 5 5M4 20h16"/></svg>Upload</button>
+      <button class="tab" role="tab" data-tab="stems" aria-selected="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>Stems</button>
     </div>
 
     <div id="pane-search">
@@ -227,6 +245,11 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
       <div class="drop" id="drop" tabindex="0"><strong>Drop audio files here</strong>or click to choose (mp3, wav, flac, m4a...)</div>
       <input id="file" type="file" accept="audio/*,.mp3,.wav,.flac,.m4a,.ogg,.opus,.aac" multiple hidden>
     </div>
+
+    <div id="pane-stems" hidden>
+      <div class="drop" id="dropStems" tabindex="0"><strong>Drop stem packs here</strong>zip, 7z, rar or tar: one song per archive (official stems, multitracks, or an a cappella + instrumental). Rave sorts them into vocals, drums, bass and the rest, and separates only what's missing.</div>
+      <input id="stemFile" type="file" accept=".zip,.7z,.rar,.tar,.gz,.tgz,.bz2,.xz" multiple hidden>
+    </div>
   </section>
 
   <section class="card" aria-label="Lineup">
@@ -234,23 +257,32 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
     <div class="lineup" id="lineup"></div>
 
     <details class="settings">
-      <summary>Mix settings</summary>
+      <summary>Mix settings <span class="summary-engine" id="engineName"></span></summary>
+      <div class="field" style="margin-top:14px"><label>Style</label></div>
+      <div class="engines" id="engines" role="group" aria-label="Mashup engine"></div>
+      <p class="engine-blurb" id="engineBlurb"></p>
       <div class="grid">
         <div class="field"><label for="title">Title</label><input id="title" type="text" placeholder="Song A x Song B"></div>
-        <div class="field"><label for="length">Length (seconds)</label><input id="length" type="number" min="45" max="600" step="15" value="150"></div>
-        <div class="field"><label for="phrase">Bars per vocal turn</label>
+        <div class="field"><label for="length">Length (seconds)</label><input id="length" type="number" min="45" max="600" step="15" value="" placeholder="Auto (by style)"></div>
+        <div class="field riffonly"><label for="phrase">Bars per vocal turn</label>
           <select id="phrase"><option>4</option><option selected>8</option><option>16</option></select></div>
-        <div class="field"><label for="bed">Backing track</label>
+        <div class="field riffonly"><label for="bed">Backing track</label>
           <select id="bed"><option value="base">Base song throughout</option><option value="rotate">Rotate between songs</option></select></div>
         <div class="field"><label for="sep">Vocal separation</label>
-          <select id="sep"><option value="demucs">Demucs (best)</option><option value="fast">Fast (rough)</option></select></div>
+          <select id="sep"><option value="auto" selected>StemDeck GPU (Demucs if it's down)</option><option value="stemdeck">StemDeck only</option><option value="demucs">Demucs (CPU)</option><option value="roformer">BS-RoFormer vocals (cleanest, slower)</option><option value="fast">Fast (rough)</option></select></div>
         <div class="field"><label for="format">Format</label>
           <select id="format"><option>mp3</option><option>wav</option><option>flac</option><option>m4a</option></select></div>
       </div>
       <div class="checks">
         <label class="check"><input type="checkbox" id="matchKey" checked>Match keys</label>
-        <label class="check"><input type="checkbox" id="drop1" checked>A cappella hit</label>
-        <label class="check"><input type="checkbox" id="riser" checked>Riser into the finale</label>
+        <label class="check riffonly"><input type="checkbox" id="drop1" checked>A cappella hit</label>
+        <label class="check"><input type="checkbox" id="riser" checked>Risers</label>
+        <label class="check" title="Binaural 3D sound for headphones: the voices circle your head"><input type="checkbox" id="eightd">8D audio</label>
+        <label class="check"><input type="checkbox" id="nightcore">Nightcore</label>
+        <select id="ncSpeed" class="pillselect" aria-label="Nightcore speed" title="Nightcore speed (pitch rises with it)">
+          <option value="1.20">x1.20 (+3.2 st)</option><option value="1.22" selected>x1.22 (+3.4 st)</option>
+          <option value="1.25">x1.25 (+3.9 st)</option><option value="1.30">x1.30 (+4.5 st)</option>
+          <option value="1.35">x1.35 (+5.2 st)</option></select>
       </div>
     </details>
 
@@ -272,12 +304,32 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
 const mmss = (s) => s ? `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}` : "";
-const key = (t) => t.kind === "upload" ? "u:" + t.file.name + t.file.size : t.item.source + ":" + t.item.id;
+const key = (t) => t.kind === "upload" || t.kind === "stems" ? t.kind[0] + ":" + t.file.name + t.file.size
+  : t.item.source + ":" + t.item.id;
 
 let info = {max_songs: 8};
 let tab = "youtube";
 let lineup = [];          // {kind: "upload", file, title} | {kind: "track", item}; plus transpose
 let base = -1;
+const ENGINES_FALLBACK = [{key: "earworm", name: "DJ Earworm", blurb: ""}];
+let engines = ENGINES_FALLBACK;
+let engine = "earworm";
+try { engine = localStorage.getItem("rave.engine3") || "earworm"; } catch (e) {}
+
+function renderEngines() {
+  if (!engines.some(e => e.key === engine)) engine = engines[0].key;
+  $("engines").innerHTML = engines.map(e =>
+    `<button type="button" class="engine" data-engine="${e.key}" aria-pressed="${e.key === engine}">${esc(e.name)}</button>`).join("");
+  $("engines").querySelectorAll("[data-engine]").forEach(b => b.onclick = () => {
+    engine = b.dataset.engine;
+    try { localStorage.setItem("rave.engine3", engine); } catch (e) {}
+    renderEngines();
+  });
+  const cur = engines.find(e => e.key === engine);
+  $("engineBlurb").textContent = cur ? cur.blurb : "";
+  $("engineName").textContent = cur ? "· " + cur.name : "";
+  document.querySelectorAll(".riffonly").forEach(el => el.style.display = engine === "riffoff" ? "" : "none");
+}
 let lastResults = [];
 
 // Tabs ------------------------------------------------------------------------------------------
@@ -285,9 +337,10 @@ document.querySelectorAll(".tab").forEach(b => b.onclick = () => setTab(b.datase
 function setTab(t) {
   tab = t;
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
-  $("pane-search").hidden = t === "upload";
+  $("pane-search").hidden = t === "upload" || t === "stems";
   $("pane-upload").hidden = t !== "upload";
-  if (t === "upload") return;
+  $("pane-stems").hidden = t !== "stems";
+  if (t === "upload" || t === "stems") return;
   $("q").placeholder = t === "spotify" ? "Search Spotify, or paste a track link" : "Search YouTube, or paste a link";
   $("searchHint").innerHTML = t === "spotify" && !info.spotify_search
     ? "Paste a Spotify track link. Searching Spotify by name needs <code>SPOTIFY_CLIENT_ID</code> / <code>SPOTIFY_CLIENT_SECRET</code> on the server."
@@ -357,13 +410,56 @@ function addFiles(files) {
   renderLineup();
 }
 
+// Stem packs: uploaded in chunks (a proxy in front may cap one request at 100 MB) -------------------
+const dropStems = $("dropStems");
+dropStems.onclick = () => $("stemFile").click();
+dropStems.onkeydown = (e) => { if (e.key === "Enter" || e.key === " ") $("stemFile").click(); };
+$("stemFile").onchange = (e) => { addPacks(e.target.files); e.target.value = ""; };
+["dragenter", "dragover"].forEach(ev => dropStems.addEventListener(ev, e => { e.preventDefault(); dropStems.classList.add("over"); }));
+["dragleave", "drop"].forEach(ev => dropStems.addEventListener(ev, e => { e.preventDefault(); dropStems.classList.remove("over"); }));
+dropStems.addEventListener("drop", e => addPacks(e.dataTransfer.files));
+function addPacks(files) {
+  const ok = info.stem_packs || [".zip", ".7z", ".rar", ".tar", ".gz", ".tgz", ".bz2", ".xz"];
+  for (const f of files) {
+    if (!ok.some(x => f.name.toLowerCase().endsWith(x))) { flash(`${f.name} isn't a zip, 7z, rar or tar.`); continue; }
+    if (lineup.length >= info.max_songs) { flash(`That's the max (${info.max_songs}).`); break; }
+    const t = {kind: "stems", file: f, title: f.name.replace(/\.(zip|7z|rar|tar|gz|tgz|bz2|xz)$/i, "").replace(/\.tar$/i, ""), transpose: "auto"};
+    if (!lineup.some(x => key(x) === key(t))) lineup.push(t);
+  }
+  renderLineup();
+}
+async function uploadPack(t, note) {
+  const form = new FormData();
+  form.append("name", t.file.name);
+  form.append("size", t.file.size);
+  const r = await fetch("api/uploads", {method: "POST", body: form});
+  const start = await r.json();
+  if (!r.ok) throw new Error(start.detail || "upload refused");
+  let at = 0;
+  while (at < t.file.size) {
+    const piece = t.file.slice(at, at + start.chunk);
+    let done = null;
+    for (let tries = 0; tries < 4 && done === null; tries++) {
+      try {
+        const p = await fetch(`api/uploads/${start.id}?offset=${at}`, {method: "PUT", body: piece});
+        if (p.ok) done = (await p.json()).received;
+      } catch (e) { await new Promise(res => setTimeout(res, 1500 * (tries + 1))); }
+    }
+    if (done === null) throw new Error("the connection dropped");
+    at = done;
+    note(`Uploading stems: ${t.title} ${Math.round(100 * at / t.file.size)}%`);
+  }
+  return start.id;
+}
+
 // Lineup ----------------------------------------------------------------------------------------
 let dragFrom = null;
 function renderLineup() {
   const box = $("lineup");
   box.innerHTML = "";
   lineup.forEach((t, i) => {
-    const it = t.kind === "track" ? t.item : {title: t.title, artist: "Uploaded file", source: "upload"};
+    const it = t.kind === "track" ? t.item
+      : {title: t.title, artist: t.kind === "stems" ? "Stem pack" : "Uploaded file", source: t.kind};
     const el = document.createElement("div");
     el.className = "slot";
     el.draggable = true;
@@ -428,16 +524,27 @@ $("go").onclick = async () => {
   const tracks = [];
   let n = 0;
   const transpose = {};
+  $("go").disabled = true;
+  try {
+    for (const t of lineup) {
+      if (t.kind === "stems" && !t.uploadId) t.uploadId = await uploadPack(t, (m) => { $("goNote").textContent = m; });
+    }
+  } catch (e) {
+    $("goNote").textContent = "Couldn't upload the stems: " + e.message;
+    $("go").disabled = false;
+    return;
+  }
   lineup.forEach((t, i) => {
     if (t.kind === "upload") { fd.append("files", t.file, t.file.name); tracks.push({upload: n++}); }
+    else if (t.kind === "stems") { tracks.push({stems: t.uploadId}); delete t.uploadId; }   // used once
     else tracks.push(t.item);
     if (t.transpose !== "auto") transpose[i] = t.transpose;
   });
   fd.append("options", JSON.stringify({
-    tracks, base, transpose, title: $("title").value.trim(),
-    length: parseFloat($("length").value) || 150, phrase_bars: parseInt($("phrase").value, 10),
+    tracks, base, transpose, title: $("title").value.trim(), style: engine,
+    length: parseFloat($("length").value) || 0, phrase_bars: parseInt($("phrase").value, 10),
     bed: $("bed").value, separation: $("sep").value, format: $("format").value,
-    match_key: $("matchKey").checked, acappella_drop: $("drop1").checked, riser: $("riser").checked,
+    match_key: $("matchKey").checked, acappella_drop: $("drop1").checked, riser: $("riser").checked, nightcore: $("nightcore").checked ? parseFloat($("ncSpeed").value) : 0, spatial: $("eightd").checked ? "8d" : "",
   }));
   $("go").disabled = true;
   $("goNote").innerHTML = '<span class="spinner"></span>&nbsp; Sending it to the booth...';
@@ -456,9 +563,23 @@ $("go").onclick = async () => {
 };
 
 // Mixes -----------------------------------------------------------------------------------------
+const clock = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+// Time on the current step ticks every second between polls, so a long step visibly isn't stuck.
+setInterval(() => document.querySelectorAll("[data-elapsed]").forEach(el => {
+  el.textContent = clock(parseFloat(el.dataset.elapsed) + (Date.now() - parseInt(el.dataset.at, 10)) / 1000);
+}), 1000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) refresh(); });
 async function refresh() {
   let jobs = [];
-  try { jobs = await (await fetch("api/jobs")).json(); } catch (e) { return; }
+  try {
+    const r = await fetch("api/jobs", {cache: "no-store"});
+    if (!r.ok) throw new Error(r.status);
+    jobs = await r.json();
+  } catch (e) {                            // a dropped request mustn't stop the updates
+    clearTimeout(refresh.t);
+    refresh.t = setTimeout(refresh, 3000);
+    return;
+  }
   const box = $("mixes");
   if (!jobs.length) { box.innerHTML = '<p class="empty">Nothing on the decks yet.</p>'; }
   else {
@@ -481,7 +602,7 @@ async function refresh() {
   }
   const busy = jobs.some(j => j.status === "queued" || j.status === "running");
   clearTimeout(refresh.t);
-  refresh.t = setTimeout(refresh, busy ? 1500 : 15000);
+  refresh.t = setTimeout(refresh, busy ? 1000 : 15000);
 }
 
 function mixHtml(j) {
@@ -491,7 +612,7 @@ function mixHtml(j) {
   let body = "";
   if (j.status === "queued") body = `<p class="hint">Waiting in line${j.position ? " (#" + j.position + ")" : ""}...</p>`;
   else if (j.status === "running") body = `<div class="progress"><div style="width:${(j.progress * 100).toFixed(1)}%"></div></div>
-      <div class="hint" style="margin:0">${esc(j.message)} · ${Math.round(j.progress * 100)}%</div>`;
+      <div class="hint" style="margin:0">${esc(j.message)} · ${Math.round(j.progress * 100)}% · <span data-elapsed="${j.elapsed || 0}" data-at="${Date.now()}">${clock(j.elapsed || 0)}</span></div>`;
   else if (j.status === "failed") body = `<p class="err">${esc(j.error || "Something went wrong")}</p>
       <div class="links"><button class="pill" data-del>Remove</button></div>`;
   else body = `<audio controls preload="none" src="api/jobs/${j.id}/audio"></audio>
@@ -511,9 +632,19 @@ function mixHtml(j) {
     if (!info.demucs) {
       const o = $("sep").querySelector("option[value=demucs]");
       o.disabled = true; o.textContent = "Demucs (not in this image)";
-      $("sep").value = "fast";
+      if (!info.stemdeck) $("sep").value = "fast";
     }
+    if (!info.stemdeck) {
+      const s = $("sep").querySelector("option[value=stemdeck]");
+      s.disabled = true; s.textContent = "StemDeck (not reachable)";
+    }
+    if (!info.roformer) {
+      const r = $("sep").querySelector("option[value=roformer]");
+      r.disabled = true; r.textContent = "BS-RoFormer (not in this image)";
+    }
+    if (info.styles && info.styles.length) engines = info.styles;
   } catch (e) {}
+  renderEngines();
   setTab("youtube");
   renderLineup();
   refresh();

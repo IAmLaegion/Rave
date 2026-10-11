@@ -1,0 +1,29 @@
+Rave cue sheet
+
+Engine: DJ Earworm (old engine)
+Tempo 113.0 BPM, key Gm (6A), length 128s
+Separation: demucs; beats: beat_this; stretch/shift: rubberband beat map; built in 965s
+
+Songs:
+  1. Can't Stop The Feeling [base]: 113.0 BPM Am (8A) -> x1.000, -2 st; chorus at bar 29
+  2. My House: 94.0 BPM Gm (6A) -> x1.202, +0 st; chorus at bar 18
+  3. 7 Years: 120.0 BPM Bb (6B) -> x0.942, +0 st; chorus at bar 49
+  4. Formation: 122.0 BPM Fm (4A) -> x0.926, +2 st; chorus at bar 85
+  5. Work from Home: 105.0 BPM Fm (4A) -> x1.076, +2 st +0.18 tuning; chorus at bar 86
+
+Arrangement:
+  0:00.0   4 bars  Intro
+  0:08.5   4 bars  Verse 1: Can't Stop The Feeling
+  0:17.0   4 bars  Verse 1: My House
+  0:25.5   4 bars  Verse 1: 7 Years
+  0:34.0   4 bars  Verse 1: Formation
+  0:42.5   4 bars  Chorus 1: My House  "control now we can't even slow down we ..."
+  0:51.0   4 bars  Chorus 1: My House  "show me what you do now we don't ..."
+  0:59.5   4 bars  Bridge: Work from Home
+  1:08.0   4 bars  Bridge: Work from Home
+  1:16.5   2 bars  Final chorus: 2 voices  "i can see but you when you dance ..."
+  1:20.7   2 bars  Final chorus: 3 voices  "good good creepin up on me just dance ..."
+  1:25.0   2 bars  Final chorus: 4 voices  "all those things i shouldn't do but you ..."
+  1:29.2   2 bars  Final chorus: 5 voices  "ain't nobody leaving soon so keep dancing so"
+  1:33.5   8 bars  Final chorus: everyone  "just dance dance dance dance so just dance ..."
+  1:50.4   8 bars  Outro
