@@ -1,0 +1,27 @@
+services:
+  rave:
+    build: .
+    image: rave
+    ports:
+      - "8000:8000"
+    volumes:
+      - rave-data:/data        # finished mashups and the cache of separated stems
+    restart: unless-stopped
+    environment:
+      # Optional: free keys from https://developer.spotify.com/dashboard turn on Spotify search by name.
+      # (Pasting a Spotify track link works without them.)
+      SPOTIFY_CLIENT_ID: ${SPOTIFY_CLIENT_ID:-}
+      SPOTIFY_CLIENT_SECRET: ${SPOTIFY_CLIENT_SECRET:-}
+      # Fetch the newest yt-dlp at each start; YouTube breaks old versions. 0 to skip.
+      RAVE_UPDATE_YTDLP: "1"
+    # For an NVIDIA GPU: build with TORCH_INDEX=https://download.pytorch.org/whl/cu124 and uncomment:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+volumes:
+  rave-data:

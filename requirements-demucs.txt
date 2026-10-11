@@ -1,0 +1,2 @@
+# Studio-grade vocal separation (needs PyTorch; the Dockerfile installs it first).
+demucs>=4.0.1

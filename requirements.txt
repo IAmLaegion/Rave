@@ -1,0 +1,8 @@
+numpy>=1.26
+scipy>=1.11
+librosa>=0.10.2
+soundfile>=0.12
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+yt-dlp[default]>=2025.11.12   # YouTube search/download; [default] adds the EJS challenge solver
