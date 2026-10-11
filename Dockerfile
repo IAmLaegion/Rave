@@ -65,6 +65,11 @@ RUN if [ "$WITH_DEMUCS" = "1" ]; then \
    && apt-get purge -y gcc g++ && apt-get autoremove -y && rm -rf /var/lib/apt/lists/* \
    && python -c "from audio_separator.separator import Separator; s = Separator(model_file_dir='/opt/models/audio-separator'); s.load_model(model_filename='model_bs_roformer_ep_317_sdr_12.9755.ckpt')"; \
     fi
+# The "best" GPU separation: MelBand-RoFormer vocals + the fine-tuned htdemucs_ft, baked in too.
+RUN if [ "$WITH_DEMUCS" = "1" ]; then \
+      python -c "from audio_separator.separator import Separator; s = Separator(model_file_dir='/opt/models/audio-separator'); s.load_model(model_filename='vocals_mel_band_roformer.ckpt')" \
+   && python -c "from demucs.pretrained import get_model; get_model('htdemucs_ft')"; \
+    fi
 # Every model is baked in above, so nothing needs the Hugging Face hub at runtime (it would only try to
 # rewrite its cache files, which the rave user can't).
 ENV HF_HUB_OFFLINE=1

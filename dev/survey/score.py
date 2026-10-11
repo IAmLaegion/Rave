@@ -38,6 +38,10 @@ def curve_score(curve, refs):
     return float(np.clip(100 * (1 - dist / (3 * typical)), 0, 100))
 
 
+# Film-scene references (Pitch Perfect: dialogue, crowd, a film mix) only say something about structure.
+SKIP = {"pitchperfect": {"rms_db", "crest_db", "stereo_corr", "balance_swing", "rotation_period"}}
+
+
 def score(path, category):
     corpus = json.load(open(OUT))
     refs = corpus.get(category) or []
@@ -46,6 +50,8 @@ def score(path, category):
     m = measure(path)
     rows, scores = [], []
     for k in METRICS:
+        if k in SKIP.get(category, ()):
+            continue
         vals = [r.get(k) for r in refs]
         s = metric_score(m.get(k), vals)
         good = [v for v in vals if v is not None]

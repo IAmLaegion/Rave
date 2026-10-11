@@ -654,11 +654,16 @@ def plan_lines(c, bars, singers, max_len, prev=None, forward=None):
 
 PRESETS = {
     "earworm": dict(length=240, block=8, max_len=4, refrain_every=16, hooks=True, beat_only_tail=0,
-                    acappella=False, final="build", final_bars=16, outro=4, pan=0.15),
-    "riffoff": dict(length=180, block=8, max_len=4, refrain_every=0, hooks=False, beat_only_tail=16,
-                    acappella=True, final="stack", final_bars=16, outro=4, pan=0.2),
+                    acappella=False, final="build", final_bars=16, outro=8, pan=0.15, line_pan=0.12),
+    # Riff-offs are a cappella: the references stay low (voices over just the beat) and build to a
+    # peak ~80% through, so the first 60% runs over the drums only, then the band comes in.
+    "riffoff": dict(length=270, block=8, max_len=4, refrain_every=0, hooks=False, beat_only_tail=0,
+                    breakdowns=[(0.0, 0.55, "beat")], acappella=True, final="stack", final_bars=16, outro=8,
+                    pan=0.2, intro=0, line_pan=0.15, bgv=0.2),
+    # Megamixes dip once, ~55-70% through (a breakdown without drums), before the last run of hooks.
     "megamix": dict(length=330, block=8, max_len=2, refrain_every=8, hooks=False, beat_only_tail=0,
-                    acappella=False, final="anchors", final_bars=8, outro=2, pan=0.1, intro=0),
+                    breakdowns=[(0.0, 0.07, "drop"), (0.55, 0.68, "drop")], acappella=False, final="anchors",
+                    final_bars=8, outro=8, pan=0.1, intro=0, line_pan=0.2),
 }
 
 
@@ -678,6 +683,7 @@ def versatile(c, p):
     outro      a few backbone bars, fading only over the last two.
     """
     bar_sec = c.bar_len / audio.SR
+    c.opts.bgv = p.get("bgv", c.opts.bgv)              # riff-offs leave more room between the groups
     length = c.opts.length if c.opts.length and c.opts.length > 0 else p["length"]
     total = max(40, int(round(length / bar_sec)))
     B, base = c.B, c.base
@@ -714,7 +720,7 @@ def versatile(c, p):
                 best = (m, j)
         return (best[1], c.tracks[best[1]].hook, float(pans[c.order.index(best[1])])) if best else None
 
-    def block(label, bars, vocals, beat_only=False, sweep=False):
+    def block(label, bars, vocals, beat_only=False, sweep=False, drop=False):
         """Music under `vocals` [(singer, bar, gain, pan, offset, length, name, span)], split into parts
         wherever a line starts or ends."""
         lead = [(x[0], x[1], x[4], x[5]) for x in vocals if x[2] >= 0.99]
@@ -735,6 +741,8 @@ def versatile(c, p):
             q = Part(f"{label}: {name}", b0 - a0, sweep=sweep and a0 == 0)
             if beat_only:
                 q.drums = [(base, pos + a0)]
+            elif drop:
+                q.harm = [(base, pos + a0, 1.0)]              # a breakdown: the backing without drums
             else:
                 q.bed = [(base, pos + a0)]
                 if hook:
@@ -761,8 +769,9 @@ def versatile(c, p):
         seq, st["prev"] = plan_lines(c, bars - off, singers, max_len, st["prev"], st["forward"])
         st["singer"] += 1
         for sg, L, o in seq:
-            vocals.append((sg, L["b0"], 1.0, 0.0, off + o, L["b1"] - L["b0"], c.tracks[sg].name,
-                           (L["start"], L["end"])))
+            st["side"] = -st.get("side", 1.0)
+            vocals.append((sg, L["b0"], 1.0, p.get("line_pan", 0.0) * st["side"], off + o, L["b1"] - L["b0"],
+                           c.tracks[sg].name, (L["start"], L["end"])))
         used = off + sum(L["b1"] - L["b0"] for _, L, _ in seq)
         k = 0
         while used < bars:                             # no line fits: the next song's verse
@@ -781,10 +790,15 @@ def versatile(c, p):
     k = 0
     while k < body:
         n = min(p["block"], body - k)
-        beat_only = p["beat_only_tail"] and k >= body - p["beat_only_tail"]
-        label = "Riff-off" if beat_only else ("Verse" if k < body / 2 else "Build")
+        frac = (intro + k) / total
+        bd = next((b for b in p.get("breakdowns", []) if b[0] <= frac < b[1]), None)
+        beat_only = (p["beat_only_tail"] and k >= body - p["beat_only_tail"]) or (bd is not None and bd[2] == "beat")
+        drop = bd is not None and bd[2] == "drop"
+        label = "Riff-off" if beat_only else "Breakdown" if drop else ("Verse" if k < body / 2 else "Build")
+        was = parts[-1].label.split(":")[0] if parts else ""
         parts += block(label, n, fill(n, p["max_len"] if not beat_only else 2), beat_only=beat_only,
-                       sweep=beat_only and k == body - p["beat_only_tail"])
+                       sweep=label != was and label in ("Build", "Verse") and was in ("Riff-off", "Breakdown"),
+                       drop=drop)
         k += n
 
     g = 1.25 / np.sqrt(c.n)
@@ -823,7 +837,10 @@ def versatile(c, p):
         after = B.chorus + p["final_bars"]
     out_at = c.outro_bar(after)
     o = p["outro"]
-    if o > 2:
+    if o > 4:
+        parts.append(Part("Outro", o - 4, harm=[(base, out_at, 1.0)]))
+        parts.append(Part("Outro", 2, bed=[(base, out_at + o - 4)]))
+    elif o > 2:
         parts.append(Part("Outro", o - 2, bed=[(base, out_at)]))
     parts.append(Part("Outro", 2, bed=[(base, out_at + max(0, o - 2))], fade=True))
     return parts

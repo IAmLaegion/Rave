@@ -1,0 +1,518 @@
+[
+ {
+  "t": 4.3,
+  "end": 10.78,
+  "text": "what you heard it's true but i can't stop thinking about you and i instead i've been there too a few times",
+  "ratio": 0.89,
+  "song": "Taylor Swift - Style",
+  "src_t": 142.48
+ },
+ {
+  "t": 11.94,
+  "end": 13.72,
+  "text": "i had a dream",
+  "ratio": 1.0,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 9.46
+ },
+ {
+  "t": 13.72,
+  "end": 15.44,
+  "text": "we were sipping whiskey",
+  "ratio": 1.0,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 11.42
+ },
+ {
+  "t": 15.44,
+  "end": 17.08,
+  "text": "knead i asked for",
+  "ratio": 0.57,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 192.1
+ },
+ {
+  "t": 17.08,
+  "end": 20.26,
+  "text": "the bowery and i was high enough",
+  "ratio": 0.92,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 15.14
+ },
+ {
+  "t": 21.0,
+  "end": 22.98,
+  "text": "somewhere along the lines",
+  "ratio": 1.0,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 18.86
+ },
+ {
+  "t": 22.98,
+  "end": 25.2,
+  "text": "we stopped seeing eye to eye",
+  "ratio": 0.73,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 21.28
+ },
+ {
+  "t": 25.2,
+  "end": 27.54,
+  "text": "you were staying out all night",
+  "ratio": 1.0,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 23.34
+ },
+ {
+  "t": 27.54,
+  "end": 29.18,
+  "text": "and i had enough",
+  "ratio": 1.0,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 25.92
+ },
+ {
+  "t": 29.18,
+  "end": 30.92,
+  "text": "oh she don't see",
+  "ratio": 1.0,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 18.06
+ },
+ {
+  "t": 31.76,
+  "end": 32.8,
+  "text": "light they're shining",
+  "ratio": 0.67,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 21.04
+ },
+ {
+  "t": 32.8,
+  "end": 35.38,
+  "text": "deeper than the eyes can find it",
+  "ratio": 1.0,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 22.18
+ },
+ {
+  "t": 35.38,
+  "end": 37.44,
+  "text": "maybe we're made of blind souls",
+  "ratio": 1.0,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 25.01
+ },
+ {
+  "t": 37.44,
+  "end": 39.86,
+  "text": "she tries to cover up a pain",
+  "ratio": 0.86,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 27.27
+ },
+ {
+  "t": 46.56,
+  "end": 48.58,
+  "text": "come in",
+  "ratio": 1.0,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 102.8
+ },
+ {
+  "t": 59.64,
+  "end": 60.88,
+  "text": "change its heart",
+  "ratio": 1.0,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 51.27
+ },
+ {
+  "t": 61.34,
+  "end": 63.14,
+  "text": "scars say you're beautiful",
+  "ratio": 0.86,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 191.65
+ },
+ {
+  "t": 77.96,
+  "end": 80.6,
+  "text": "never come in between",
+  "ratio": 1.0,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 102.4
+ },
+ {
+  "t": 89.18,
+  "end": 90.7,
+  "text": "you're part of my entity",
+  "ratio": 1.0,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 104.06
+ },
+ {
+  "t": 91.56,
+  "end": 92.84,
+  "text": "give for infinity",
+  "ratio": 0.8,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 107.92
+ },
+ {
+  "t": 93.62,
+  "end": 95.54,
+  "text": "when the world has took its part",
+  "ratio": 1.0,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 110.54
+ },
+ {
+  "t": 95.54,
+  "end": 98.14,
+  "text": "when the world has dealt its card",
+  "ratio": 0.92,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 113.06
+ },
+ {
+  "t": 98.14,
+  "end": 100.38,
+  "text": "so far and and it's hard",
+  "ratio": 0.36
+ },
+ {
+  "t": 100.8,
+  "end": 104.36,
+  "text": "far and and it's a while",
+  "ratio": 0.55
+ },
+ {
+  "t": 105.1,
+  "end": 107.2,
+  "text": "cause we were young and unsure",
+  "ratio": 0.73,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 120.48
+ },
+ {
+  "t": 107.2,
+  "end": 109.26,
+  "text": "with love on the line",
+  "ratio": 1.0,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 53.52
+ },
+ {
+  "t": 109.68,
+  "end": 112.08,
+  "text": "when if we both would need more",
+  "ratio": 0.92,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 126.48
+ },
+ {
+  "t": 112.6,
+  "end": 115.84,
+  "text": "but only all your flaws and scars are mine",
+  "ratio": 0.94,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 58.82
+ },
+ {
+  "t": 116.8,
+  "end": 120.28,
+  "text": "far for you far for you",
+  "ratio": 0.73,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 24.2
+ },
+ {
+  "t": 120.54,
+  "end": 121.96,
+  "text": "then my umbrella",
+  "ratio": 0.8,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 74.52
+ },
+ {
+  "t": 122.72,
+  "end": 123.72,
+  "text": "la la",
+  "ratio": 1.0,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 78.86
+ },
+ {
+  "t": 124.22,
+  "end": 126.58,
+  "text": "yeah yeah under my umbrella",
+  "ratio": 0.67,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 73.88
+ },
+ {
+  "t": 126.58,
+  "end": 128.34,
+  "text": "la la la",
+  "ratio": 1.0,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 83.82
+ },
+ {
+  "t": 128.54,
+  "end": 131.24,
+  "text": "yeah yeah yeah my umbrella",
+  "ratio": 0.44
+ },
+ {
+  "t": 134.18,
+  "end": 137.86,
+  "text": "my umbrella la la la yeah",
+  "ratio": 0.91,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 82.7
+ },
+ {
+  "t": 138.92,
+  "end": 139.96,
+  "text": "yeah yeah yeah",
+  "ratio": 0.8,
+  "song": "Rihanna ft. JAY-Z - Umbrella",
+  "src_t": 232.38
+ },
+ {
+  "t": 139.96,
+  "end": 141.78,
+  "text": "if we go down",
+  "ratio": 1.0,
+  "song": "The Chainsmokers - Paris",
+  "src_t": 28.16
+ },
+ {
+  "t": 142.32,
+  "end": 146.56,
+  "text": "we go down together say you could do anything",
+  "ratio": 0.95,
+  "song": "The Chainsmokers - Paris",
+  "src_t": 31.02
+ },
+ {
+  "t": 146.56,
+  "end": 148.6,
+  "text": "they'll say that i was clever",
+  "ratio": 1.0,
+  "song": "The Chainsmokers - Paris",
+  "src_t": 35.44
+ },
+ {
+  "t": 148.6,
+  "end": 153.1,
+  "text": "if we go down then we go down together",
+  "ratio": 1.0,
+  "song": "The Chainsmokers - Paris",
+  "src_t": 28.16
+ },
+ {
+  "t": 153.1,
+  "end": 157.58,
+  "text": "we'll get away with everything that's chosen me our better",
+  "ratio": 0.57,
+  "song": "The Chainsmokers - Paris",
+  "src_t": 42.44
+ },
+ {
+  "t": 157.58,
+  "end": 159.24,
+  "text": "she tells her love",
+  "ratio": 0.67,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 35.92
+ },
+ {
+  "t": 159.62,
+  "end": 161.16,
+  "text": "no one's ever gonna hurt you",
+  "ratio": 1.0,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 38.44
+ },
+ {
+  "t": 161.16,
+  "end": 163.92,
+  "text": "love i'm gonna give you all of my love",
+  "ratio": 1.0,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 40.38
+ },
+ {
+  "t": 164.3,
+  "end": 165.74,
+  "text": "nobody matters like you",
+  "ratio": 1.0,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 43.22
+ },
+ {
+  "t": 166.92,
+  "end": 170.8,
+  "text": "tells her love ain't got me nothing like my life",
+  "ratio": 0.76,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 46.48
+ },
+ {
+  "t": 170.8,
+  "end": 173.02,
+  "text": "you're gonna grow and have a good life",
+  "ratio": 1.0,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 50.32
+ },
+ {
+  "t": 173.02,
+  "end": 175.96,
+  "text": "i'm gonna do what i got to do",
+  "ratio": 1.0,
+  "song": "Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye",
+  "src_t": 196.88
+ },
+ {
+  "t": 175.96,
+  "end": 177.6,
+  "text": "just make me a lover",
+  "ratio": 0.44
+ },
+ {
+  "t": 180.68,
+  "end": 186.56,
+  "text": "make me a lover just make me a me",
+  "ratio": 0.42
+ },
+ {
+  "t": 186.68,
+  "end": 187.7,
+  "text": "tell me you need me",
+  "ratio": 0.91,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 160.14
+ },
+ {
+  "t": 188.5,
+  "end": 189.14,
+  "text": "tell me tell me",
+  "ratio": 1.0,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 105.18
+ },
+ {
+  "t": 189.18,
+  "end": 190.18,
+  "text": "do you love me",
+  "ratio": 1.0,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 162.94
+ },
+ {
+  "t": 190.52,
+  "end": 192.36,
+  "text": "or is it just trying to play me",
+  "ratio": 0.88,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 164.6
+ },
+ {
+  "t": 192.8,
+  "end": 194.78,
+  "text": "would you still love me",
+  "ratio": 1.0,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 8.74
+ },
+ {
+  "t": 195.66,
+  "end": 198.7,
+  "text": "of you",
+  "ratio": 1.0,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 94.16
+ },
+ {
+  "t": 202.3,
+  "end": 204.66,
+  "text": "you still love me the same",
+  "ratio": 1.0,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 9.14
+ },
+ {
+  "t": 204.84,
+  "end": 206.7,
+  "text": "if i showed you my flaws",
+  "ratio": 1.0,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 12.04
+ },
+ {
+  "t": 206.7,
+  "end": 208.48,
+  "text": "i'd need a fuck or you'd be",
+  "ratio": 0.31
+ },
+ {
+  "t": 208.48,
+  "end": 211.16,
+  "text": "struggled don't be honest with me",
+  "ratio": 0.5
+ },
+ {
+  "t": 211.16,
+  "end": 213.92,
+  "text": "would you still love me the same",
+  "ratio": 1.0,
+  "song": "R. City ft. Adam Levine - Locked Away",
+  "src_t": 8.74
+ },
+ {
+  "t": 214.28,
+  "end": 215.04,
+  "text": "she's bein",
+  "ratio": 0.67,
+  "song": "Alessia Cara - Scars To Your Beautiful",
+  "src_t": 83.69
+ },
+ {
+  "t": 215.5,
+  "end": 222.78,
+  "text": "she's bein bein love she's bein she's bein bein in love",
+  "ratio": 0.29
+ },
+ {
+  "t": 222.78,
+  "end": 225.76,
+  "text": "she's bein can you keep",
+  "ratio": 0.44
+ },
+ {
+  "t": 225.76,
+  "end": 228.48,
+  "text": "keepin in us",
+  "ratio": 0.4
+ },
+ {
+  "t": 229.22,
+  "end": 230.64,
+  "text": "will you kill me",
+  "ratio": 0.57,
+  "song": "Kygo & Selena Gomez - It Ain't Me",
+  "src_t": 210.16
+ },
+ {
+  "t": 230.64,
+  "end": 231.14,
+  "text": "on the",
+  "ratio": 1.0,
+  "song": "Ellie Goulding - Still Falling For You",
+  "src_t": 17.32
+ }
+]

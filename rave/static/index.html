@@ -269,7 +269,7 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
         <div class="field riffonly"><label for="bed">Backing track</label>
           <select id="bed"><option value="base">Base song throughout</option><option value="rotate">Rotate between songs</option></select></div>
         <div class="field"><label for="sep">Vocal separation</label>
-          <select id="sep"><option value="auto" selected>StemDeck GPU (Demucs if it's down)</option><option value="stemdeck">StemDeck only</option><option value="demucs">Demucs (CPU)</option><option value="roformer">BS-RoFormer vocals (cleanest, slower)</option><option value="fast">Fast (rough)</option></select></div>
+          <select id="sep"><option value="auto" selected>Auto (best available)</option><option value="best">Best (GPU: MelBand-RoFormer + htdemucs_ft)</option><option value="stemdeck">StemDeck only</option><option value="demucs">Demucs (CPU)</option><option value="roformer">BS-RoFormer vocals (cleanest, slower)</option><option value="fast">Fast (rough)</option></select></div>
         <div class="field"><label for="format">Format</label>
           <select id="format"><option>mp3</option><option>wav</option><option>flac</option><option>m4a</option></select></div>
       </div>
@@ -633,6 +633,10 @@ function mixHtml(j) {
       const o = $("sep").querySelector("option[value=demucs]");
       o.disabled = true; o.textContent = "Demucs (not in this image)";
       if (!info.stemdeck) $("sep").value = "fast";
+    }
+    if (!info.best) {
+      const b = $("sep").querySelector("option[value=best]");
+      b.disabled = true; b.textContent = "Best (needs the GPU build)";
     }
     if (!info.stemdeck) {
       const s = $("sep").querySelector("option[value=stemdeck]");

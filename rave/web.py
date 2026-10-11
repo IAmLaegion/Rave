@@ -94,6 +94,7 @@ def info():
     return {"version": __version__, "demucs": separate.demucs_available(),
             "stretch": transform.backend(), "max_songs": MAX_SONGS,
             "roformer": separate.roformer_available(), "stemdeck": stemdeck.available(),
+            "best": separate.best_available(),
             "stem_packs": stempack.ARCHIVE_EXT,
             "youtube": sources.youtube_enabled(), "spotify_search": sources.spotify_enabled(),
             "styles": [{"key": s.key, "name": s.name, "blurb": s.blurb}

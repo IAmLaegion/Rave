@@ -34,7 +34,7 @@ class Options:
     seed: int = None                # randomness for styles that use it (rave.dj); None = a new take
     nightcore: float = 0.0          # nightcore speed-up (references measured 1.20x and 1.23x); 0 = off
     spatial: str = ""               # "8d": binaural, voices circling the head (for headphones)
-    bgv: bool = True                # the backing song's own vocal fills the gaps between lead lines
+    bgv: float = 0.4                # level of the backing song's own vocal in the gaps between lead lines
     cache_dir: str = None
 
 
@@ -448,6 +448,7 @@ def render(tracks, parts, bar_len, opts):
                 add(lane, i, s)
             add("bgv", i, s)                            # the backing song's own vocal, for the gaps
         for (i, s) in p.drums:
+            add("bgv", i, s)                            # backing singers over just the beat, too
             if tracks[i].drums is not None:
                 add("drums", i, s)
             else:
@@ -510,7 +511,7 @@ def render(tracks, parts, bar_len, opts):
         for (i, s, dbar, n, g, pan) in _runs(lanes["bgv"], tracks):
             t = tracks[i]
             mix.place(bgv, t.vocals, int(t.bars[s]), pos(dbar), pos(dbar + n) - pos(dbar),
-                      mix.ms(30), mix.ms(30), mix.ms(80), mix.ms(80), 0.5, 0.0)
+                      mix.ms(30), mix.ms(30), mix.ms(80), mix.ms(80), float(opts.bgv), 0.0)
         bus["voc"] += mix.gap_fill(bgv, bus["voc"])
     throws = np.zeros_like(bus["voc"])
     for r in vruns:
@@ -572,7 +573,7 @@ def render(tracks, parts, bar_len, opts):
     if opts.spatial != "8d":
         # The references sit a little narrower than a raw stem mix (L/R correlation ~0.77).
         mid, side = (out[0] + out[1]) / 2, (out[0] - out[1]) / 2
-        out = np.stack([mid + 0.85 * side, mid - 0.85 * side]).astype(np.float32)
+        out = np.stack([mid + 0.75 * side, mid - 0.75 * side]).astype(np.float32)
     out = mix.normalize_rms(out, -13.5)
     out = mix.limit(out, -0.3)   # the references peak near full scale, ~14 dB above their RMS
     return mix.fade_out(out, mix.ms(10))

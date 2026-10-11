@@ -13,7 +13,8 @@ from score import score  # noqa: E402
 
 SET = ["Justin Timberlake - Can't Stop The Feeling", "Flo Rida - My House", "Lukas Graham - 7 Years",
        "Beyonce - Formation", "Fifth Harmony - Work from Home"]
-CATEGORY = {"earworm_old": "earworm", "earworm": "earworm", "riffoff": "pitchperfect", "megamix": "megamix"}
+CATEGORY = {"earworm_old": "earworm", "earworm": "earworm", "riffoff": "pitchperfect", "megamix": "megamix",
+            "classic": "earworm"}
 
 styles.STYLES["earworm_old"] = styles.Style("earworm_old", "DJ Earworm (old engine)", "", styles.earworm,
                                             key_mode="least_damage")

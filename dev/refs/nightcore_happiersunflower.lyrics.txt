@@ -1,2 +1,31 @@
 Transcribing the reference vocals (kwWKzixyFmg.webm)
 Ignoring corrupted tree cache file /opt/models/hub/models--Systran--faster-whisper-small.en/trees/d1d751a5f8271d482d14ca55d9e2deeebbae577f.json: [Errno 13] Permission denied: '/opt/models/hub/models--Systran--faster-whisper-small.en/trees/d1d751a5f8271d482d14ca55d9e2deeebbae577f.json'
+  Marshmello ft. Bastille - Happier: 355 words
+  Post Malone & Swae Lee - Sunflower: 264 words
+
+Reference: 305 words in 22 lines
+
+  0:00.00   1.8s  Marshmello ft. Bastille - Happier        @   0.0s  1.00  lately i've been
+  0:02.30   5.7s  Marshmello ft. Bastille - Happier        @   1.9s  1.00  i've been thinking i want you to be happier i want you to be
+  0:08.72   8.9s  Marshmello ft. Bastille - Happier        @   7.4s  0.87  when the morning comes when we see what we've become in the 
+  0:18.40   1.2s  Marshmello ft. Bastille - Happier        @  18.4s  1.00  every argument
+  0:20.40   7.1s  Marshmello ft. Bastille - Happier        @  19.7s  1.00  every word we can't take back cause with all that has happen
+  0:28.90  18.5s  Marshmello ft. Bastille - Happier        @  27.7s  0.73  only thought would be dead i want to change my mind this jus
+  0:48.40   5.4s  Post Malone & Swae Lee - Sunflower       @  71.1s  0.75  then you're left in the desert unless i stop by you're sunfl
+  0:55.72   1.4s  Post Malone & Swae Lee - Sunflower       @  37.7s  0.80  you're a sunflower
+  1:07.72   3.6s  Post Malone & Swae Lee - Sunflower       @  92.6s  0.74  time i'm leaving you you don't make it easy
+  1:12.12  14.2s  Post Malone & Swae Lee - Sunflower       @  97.0s  0.80  wish i could be there for you give me the reason hope every 
+  1:58.58  14.5s  Marshmello ft. Bastille - Happier        @ 127.9s  0.93  i will go go go so i'll go go go i will go go go
+  2:14.33   8.0s  Marshmello ft. Bastille - Happier        @   0.0s  1.00  lately i've been i've been thinking i want you to be happier
+  2:23.88   8.2s  Marshmello ft. Bastille - Happier        @ 153.7s  1.00  even though i might not like this i think that you'll be hap
+  2:32.94   2.7s  Marshmello ft. Bastille - Happier        @  26.5s  0.67  then only for the moment
+  2:36.52   2.6s  Marshmello ft. Bastille - Happier        @  31.4s  1.00  i want to change my mind
+  2:39.74   8.8s  Marshmello ft. Bastille - Happier        @  34.4s  0.94  this just don't feel right to me i wanna raise your secrets 
+  2:49.58   3.3s  Marshmello ft. Bastille - Happier        @ 102.5s  1.00  that means i'll to leave
+  2:54.04   7.4s  ?                                                 0.36  you're left in the dark you're left in the dark there's a su
+  3:01.94   5.1s  ?                                                 0.26  won't leave me i'll be i'll be there i won't you through
+  3:08.96   1.4s  ?                                                 0.00  sun sun
+  3:10.90   2.0s  Marshmello ft. Bastille - Happier        @ 124.4s  1.00  i'll go
+  3:14.20   6.1s  Marshmello ft. Bastille - Happier        @ 202.9s  1.00  i'll go i will go go go
+
+Matched 19/22 lines to a source song.

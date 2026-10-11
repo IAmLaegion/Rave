@@ -1,0 +1,86 @@
+Transcribing the reference vocals (TCcJcVWiZuM.webm)
+Ignoring corrupted tree cache file /opt/models/hub/models--Systran--faster-whisper-small.en/trees/d1d751a5f8271d482d14ca55d9e2deeebbae577f.json: [Errno 13] Permission denied: '/opt/models/hub/models--Systran--faster-whisper-small.en/trees/d1d751a5f8271d482d14ca55d9e2deeebbae577f.json'
+  The Chainsmokers & Coldplay - Something Just Like This: 275 words
+  Kygo & Selena Gomez - It Ain't Me: 224 words
+  Leona Lewis - Bleeding Love: 302 words
+  Alessia Cara - Scars To Your Beautiful: 399 words
+  Ellie Goulding - Still Falling For You: 401 words
+  Rihanna ft. JAY-Z - Umbrella: 426 words
+  The Chainsmokers ft. ROZES - Roses: 161 words
+  The Chainsmokers - Paris: 337 words
+  Taylor Swift - Style: 347 words
+  Clean Bandit ft. Sean Paul & Anne-Marie - Rockabye: 453 words
+  R. City ft. Adam Levine - Locked Away: 520 words
+  Zedd & Alessia Cara - Stay: 296 words
+
+Reference: 386 words in 67 lines
+
+  0:04.30   6.5s  Taylor Swift - Style                     @ 142.5s  0.89  what you heard it's true but i can't stop thinking about you
+  0:11.94   1.8s  Kygo & Selena Gomez - It Ain't Me        @   9.5s  1.00  i had a dream
+  0:13.72   1.7s  Kygo & Selena Gomez - It Ain't Me        @  11.4s  1.00  we were sipping whiskey
+  0:15.44   1.6s  Ellie Goulding - Still Falling For You   @ 192.1s  0.57  knead i asked for
+  0:17.08   3.2s  Kygo & Selena Gomez - It Ain't Me        @  15.1s  0.92  the bowery and i was high enough
+  0:21.00   2.0s  Kygo & Selena Gomez - It Ain't Me        @  18.9s  1.00  somewhere along the lines
+  0:22.98   2.2s  Kygo & Selena Gomez - It Ain't Me        @  21.3s  0.73  we stopped seeing eye to eye
+  0:25.20   2.3s  Kygo & Selena Gomez - It Ain't Me        @  23.3s  1.00  you were staying out all night
+  0:27.54   1.6s  Kygo & Selena Gomez - It Ain't Me        @  25.9s  1.00  and i had enough
+  0:29.18   1.7s  Alessia Cara - Scars To Your Beautiful   @  18.1s  1.00  oh she don't see
+  0:31.76   1.0s  Alessia Cara - Scars To Your Beautiful   @  21.0s  0.67  light they're shining
+  0:32.80   2.6s  Alessia Cara - Scars To Your Beautiful   @  22.2s  1.00  deeper than the eyes can find it
+  0:35.38   2.1s  Alessia Cara - Scars To Your Beautiful   @  25.0s  1.00  maybe we're made of blind souls
+  0:37.44   2.4s  Alessia Cara - Scars To Your Beautiful   @  27.3s  0.86  she tries to cover up a pain
+  0:46.56   2.0s  Rihanna ft. JAY-Z - Umbrella             @ 102.8s  1.00  come in
+  0:59.64   1.2s  Alessia Cara - Scars To Your Beautiful   @  51.3s  1.00  change its heart
+  1:01.34   1.8s  Alessia Cara - Scars To Your Beautiful   @ 191.7s  0.86  scars say you're beautiful
+  1:17.96   2.6s  Rihanna ft. JAY-Z - Umbrella             @ 102.4s  1.00  never come in between
+  1:29.18   1.5s  Rihanna ft. JAY-Z - Umbrella             @ 104.1s  1.00  you're part of my entity
+  1:31.56   1.3s  Rihanna ft. JAY-Z - Umbrella             @ 107.9s  0.80  give for infinity
+  1:33.62   1.9s  Rihanna ft. JAY-Z - Umbrella             @ 110.5s  1.00  when the world has took its part
+  1:35.54   2.6s  Rihanna ft. JAY-Z - Umbrella             @ 113.1s  0.92  when the world has dealt its card
+  1:38.14   2.2s  ?                                                 0.36  so far and and it's hard
+  1:40.80   3.6s  ?                                                 0.55  far and and it's a while
+  1:45.10   2.1s  Ellie Goulding - Still Falling For You   @ 120.5s  0.73  cause we were young and unsure
+  1:47.20   2.1s  Ellie Goulding - Still Falling For You   @  53.5s  1.00  with love on the line
+  1:49.68   2.4s  Ellie Goulding - Still Falling For You   @ 126.5s  0.92  when if we both would need more
+  1:52.60   3.2s  Ellie Goulding - Still Falling For You   @  58.8s  0.94  but only all your flaws and scars are mine
+  1:56.80   3.5s  Ellie Goulding - Still Falling For You   @  24.2s  0.73  far for you far for you
+  2:00.54   1.4s  Rihanna ft. JAY-Z - Umbrella             @  74.5s  0.80  then my umbrella
+  2:02.72   1.0s  Rihanna ft. JAY-Z - Umbrella             @  78.9s  1.00  la la
+  2:04.22   2.4s  Rihanna ft. JAY-Z - Umbrella             @  73.9s  0.67  yeah yeah under my umbrella
+  2:06.58   1.8s  Rihanna ft. JAY-Z - Umbrella             @  83.8s  1.00  la la la
+  2:08.54   2.7s  ?                                                 0.44  yeah yeah yeah my umbrella
+  2:14.18   3.7s  Rihanna ft. JAY-Z - Umbrella             @  82.7s  0.91  my umbrella la la la yeah
+  2:18.92   1.0s  Rihanna ft. JAY-Z - Umbrella             @ 232.4s  0.80  yeah yeah yeah
+  2:19.96   1.8s  The Chainsmokers - Paris                 @  28.2s  1.00  if we go down
+  2:22.32   4.2s  The Chainsmokers - Paris                 @  31.0s  0.95  we go down together say you could do anything
+  2:26.56   2.0s  The Chainsmokers - Paris                 @  35.4s  1.00  they'll say that i was clever
+  2:28.60   4.5s  The Chainsmokers - Paris                 @  28.2s  1.00  if we go down then we go down together
+  2:33.10   4.5s  The Chainsmokers - Paris                 @  42.4s  0.57  we'll get away with everything that's chosen me our better
+  2:37.58   1.7s  Clean Bandit ft. Sean Paul & Anne-Marie  @  35.9s  0.67  she tells her love
+  2:39.62   1.5s  Clean Bandit ft. Sean Paul & Anne-Marie  @  38.4s  1.00  no one's ever gonna hurt you
+  2:41.16   2.8s  Clean Bandit ft. Sean Paul & Anne-Marie  @  40.4s  1.00  love i'm gonna give you all of my love
+  2:44.30   1.4s  Clean Bandit ft. Sean Paul & Anne-Marie  @  43.2s  1.00  nobody matters like you
+  2:46.92   3.9s  Clean Bandit ft. Sean Paul & Anne-Marie  @  46.5s  0.76  tells her love ain't got me nothing like my life
+  2:50.80   2.2s  Clean Bandit ft. Sean Paul & Anne-Marie  @  50.3s  1.00  you're gonna grow and have a good life
+  2:53.02   2.9s  Clean Bandit ft. Sean Paul & Anne-Marie  @ 196.9s  1.00  i'm gonna do what i got to do
+  2:55.96   1.6s  ?                                                 0.44  just make me a lover
+  3:00.68   5.9s  ?                                                 0.42  make me a lover just make me a me
+  3:06.68   1.0s  R. City ft. Adam Levine - Locked Away    @ 160.1s  0.91  tell me you need me
+  3:08.50   0.6s  R. City ft. Adam Levine - Locked Away    @ 105.2s  1.00  tell me tell me
+  3:09.18   1.0s  R. City ft. Adam Levine - Locked Away    @ 162.9s  1.00  do you love me
+  3:10.52   1.8s  R. City ft. Adam Levine - Locked Away    @ 164.6s  0.88  or is it just trying to play me
+  3:12.80   2.0s  R. City ft. Adam Levine - Locked Away    @   8.7s  1.00  would you still love me
+  3:15.66   3.0s  Ellie Goulding - Still Falling For You   @  94.2s  1.00  of you
+  3:22.30   2.4s  R. City ft. Adam Levine - Locked Away    @   9.1s  1.00  you still love me the same
+  3:24.84   1.9s  R. City ft. Adam Levine - Locked Away    @  12.0s  1.00  if i showed you my flaws
+  3:26.70   1.8s  ?                                                 0.31  i'd need a fuck or you'd be
+  3:28.48   2.7s  ?                                                 0.50  struggled don't be honest with me
+  3:31.16   2.8s  R. City ft. Adam Levine - Locked Away    @   8.7s  1.00  would you still love me the same
+  3:34.28   0.8s  Alessia Cara - Scars To Your Beautiful   @  83.7s  0.67  she's bein
+  3:35.50   7.3s  ?                                                 0.29  she's bein bein love she's bein she's bein bein in love
+  3:42.78   3.0s  ?                                                 0.44  she's bein can you keep
+  3:45.76   2.7s  ?                                                 0.40  keepin in us
+  3:49.22   1.4s  Kygo & Selena Gomez - It Ain't Me        @ 210.2s  0.57  will you kill me
+  3:50.64   0.5s  Ellie Goulding - Still Falling For You   @  17.3s  1.00  on the
+
+Matched 57/67 lines to a source song.

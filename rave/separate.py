@@ -15,7 +15,11 @@ import soundfile as sf
 
 from . import audio
 
-METHODS = ("auto", "stemdeck", "demucs", "roformer", "fast")
+METHODS = ("auto", "best", "stemdeck", "demucs", "roformer", "fast")
+# "best" (GPU): the cleanest open models per stem: MelBand-RoFormer for the vocals (vocal SDR 12.6 dB,
+# vs 9.9 for htdemucs and 9.6 for StemDeck's htdemucs_6s), then the fine-tuned htdemucs_ft on what's left
+# for drums (10.0), bass (12.0) and other.
+BEST_VOCALS = os.environ.get("RAVE_BEST_VOCALS", "vocals_mel_band_roformer.ckpt")
 ROFORMER_MODEL = os.environ.get("RAVE_ROFORMER_MODEL", "model_bs_roformer_ep_317_sdr_12.9755.ckpt")
 ROFORMER_DIR = os.environ.get("RAVE_ROFORMER_DIR", "/opt/models/audio-separator")
 _model = None
@@ -32,6 +36,14 @@ def has_pack(cache_dir, key):
         os.path.isfile(os.path.join(cache_dir, f"{key}.pack.{s}.flac")) for s in ("vocals", "drums", "bass", "other"))
 
 
+def best_available():
+    try:
+        import torch
+        return roformer_available() and torch.cuda.is_available()
+    except ImportError:
+        return False
+
+
 def roformer_available():
     import importlib.util
     return demucs_available() and importlib.util.find_spec("audio_separator") is not None
@@ -39,10 +51,14 @@ def roformer_available():
 
 def resolve(method):
     if method == "auto":
+        if best_available():
+            return "best"                              # our own GPU, the cleanest models
         from . import stemdeck
         if stemdeck.available():
             return "stemdeck"                          # StemDeck's GPU: seconds per song
         return "demucs" if demucs_available() else "fast"
+    if method == "best" and not best_available():
+        raise RuntimeError("The best-quality separation needs this image's GPU build; choose another.")
     if method == "demucs" and not demucs_available():
         raise RuntimeError("Demucs is not installed. Build the image with WITH_DEMUCS=1, or choose 'fast'.")
     if method == "stemdeck":
@@ -72,7 +88,7 @@ def separate(y, method="auto", cache_dir=None, key=None, progress=None):
         pack = [os.path.join(cache_dir, f"{key}.pack.{stem}.flac") for stem in four]
         if all(os.path.isfile(p) for p in pack):          # the song came as a stem pack
             return tuple(_fit(sf.read(p, dtype="float32", always_2d=True)[0].T, y.shape[1]) for p in pack)
-    stems = four if method in ("demucs", "roformer", "stemdeck") else ("vocals", "inst")
+    stems = four if method in ("demucs", "roformer", "stemdeck", "best") else ("vocals", "inst")
     paths = None
     if cache_dir and key:
         os.makedirs(cache_dir, exist_ok=True)
@@ -80,36 +96,65 @@ def separate(y, method="auto", cache_dir=None, key=None, progress=None):
         if all(os.path.isfile(p) for p in paths):
             got = [_fit(sf.read(p, dtype="float32", always_2d=True)[0].T, y.shape[1]) for p in paths]
             return tuple(got) if len(got) == 4 else (got[0], None, None, got[1])
-    out = {"demucs": _demucs, "roformer": _roformer, "fast": _fast, "stemdeck": _stemdeck}[method](y, progress)
+    out = {"demucs": _demucs, "roformer": _roformer, "fast": _fast, "stemdeck": _stemdeck,
+           "best": _best}[method](y, progress)
     if paths:
         for p, s in zip(paths, [s for s in out if s is not None]):
             sf.write(p, np.clip(s, -1, 1).T, audio.SR, subtype="PCM_24")
     return out
 
 
-def _roformer(y, progress):
-    """BS-RoFormer for the vocals, then Demucs on what's left for drums, bass and other."""
+def _roformer_vocals(y, model, progress, label):
+    """The vocal stem of `y` from an audio-separator model (GPU when there is one)."""
     import tempfile
     from audio_separator.separator import Separator
     if progress:
-        progress("Separating vocals with BS-RoFormer (slow on a CPU)...")
+        progress(f"Separating vocals with {label}...")
     with tempfile.TemporaryDirectory() as tmp:
         src = os.path.join(tmp, "song.wav")
         sf.write(src, y.T, audio.SR, subtype="FLOAT")
         sep = Separator(output_dir=tmp, model_file_dir=ROFORMER_DIR, output_format="WAV",
                         sample_rate=audio.SR, log_level=40)
-        sep.load_model(model_filename=ROFORMER_MODEL)
+        sep.load_model(model_filename=model)
         files = [os.path.join(tmp, f) for f in sep.separate(src)]
         vocals = next((f for f in files if "(vocals)" in f.lower()), None)
         if vocals is None:
-            raise RuntimeError("BS-RoFormer produced no vocal stem.")
+            raise RuntimeError(f"{label} produced no vocal stem.")
         v = sf.read(vocals, dtype="float32", always_2d=True)[0].T
-    n = y.shape[1]
-    v = _fit(v, n)
+    try:
+        import torch
+        torch.cuda.empty_cache()
+    except Exception:
+        pass
+    return _fit(v, y.shape[1])
+
+
+def _roformer(y, progress):
+    """BS-RoFormer for the vocals, then Demucs on what's left for drums, bass and other."""
+    v = _roformer_vocals(y, ROFORMER_MODEL, progress, "BS-RoFormer (slow on a CPU)")
     if progress:
         progress("Splitting the instrumental with Demucs...")
     _, d, b, o = _demucs(y - v, None)
     return v, d, b, o
+
+
+def _best(y, progress):
+    """MelBand-RoFormer for the vocals, then htdemucs_ft on the instrumental that's left (with the
+    voice already gone, the drum/bass/other split is cleaner too). Falls back to StemDeck or plain
+    Demucs if the shared GPU is full."""
+    try:
+        v = _roformer_vocals(y, BEST_VOCALS, progress, "MelBand-RoFormer on the GPU")
+        if progress:
+            progress("Splitting the instrumental with htdemucs_ft on the GPU...")
+        _, d, b, o = _demucs(y - v, None, model="htdemucs_ft")
+        return v, d, b, o
+    except RuntimeError as e:
+        if "out of memory" not in str(e).lower() and "cuda" not in str(e).lower():
+            raise
+        if progress:
+            progress("The GPU is busy; separating another way instead...")
+        from . import stemdeck
+        return stemdeck.separate(y, None) if stemdeck.available() else _demucs(y, progress)
 
 
 def _stemdeck(y, progress):
@@ -123,17 +168,20 @@ def _fit(s, n):
     return np.pad(s, ((0, 0), (0, n - s.shape[1])))
 
 
-def _demucs(y, progress):
-    global _model
+_models = {}
+
+
+def _demucs(y, progress, model="htdemucs"):
     import torch
     from demucs.apply import apply_model
     from demucs.pretrained import get_model
 
-    if _model is None:
+    if model not in _models:
         if progress:
             progress("Loading the Demucs model...")
-        _model = get_model("htdemucs")
-        _model.eval()
+        _models[model] = get_model(model)
+        _models[model].eval()
+    _model = _models[model]
     device = "cuda" if torch.cuda.is_available() else "cpu"
     wav = torch.from_numpy(np.ascontiguousarray(y))
     if _model.samplerate != audio.SR:
