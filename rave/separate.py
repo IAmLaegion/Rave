@@ -241,3 +241,11 @@ def _fast(y, progress):
     vocals = np.stack([librosa.istft(s * mask_v, hop_length=hop, length=n) for s in specs])
     inst = np.stack([librosa.istft(s * mask_i, hop_length=hop, length=n) for s in specs])
     return vocals.astype(np.float32), None, None, inst.astype(np.float32)
+
+
+def split_instrumental(inst):
+    """(drums, bass, other) of a clean instrumental (no vocals to leak), with the best Demucs there is."""
+    import torch
+    model = "htdemucs_ft" if torch.cuda.is_available() else "htdemucs"
+    v, d, b, o = _demucs(inst, None, model=model)
+    return d, b, (o + v).astype(np.float32)               # whatever it called "vocals" is instrumental too

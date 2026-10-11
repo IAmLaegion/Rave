@@ -1,7 +1,8 @@
 """Stem packs: archives of a song's separate tracks (official stems, multitracks, a cappella +
 instrumental), used instead of separating the song with Demucs.
 
-An archive is unpacked with 7-Zip (zip, 7z, rar, tar...). Each folder holding audio is one song (a
+A Native Instruments STEMS file (.stem.mp4) is read directly: its five audio tracks are the master
+and the drums, bass, other and vocal stems. An archive is unpacked with 7-Zip (zip, 7z, rar, tar...). Each folder holding audio is one song (a
 pack with a single song in it is the usual case). Every file is sorted by its name into vocals,
 drums, bass or other ("Lead Vox.wav", "Kick.wav", "808.wav", "Synth Pad.wav" ...); an instrumental
 or a full mix is used to fill in whatever the pack doesn't have, by separating just that with Demucs.
@@ -20,6 +21,8 @@ import soundfile as sf
 from . import audio, separate
 
 ARCHIVE_EXT = (".zip", ".7z", ".rar", ".tar", ".gz", ".tgz", ".bz2", ".xz", ".tbz2")
+STEM_EXT = (".stem.mp4", ".stem.m4a")
+NI_TRACKS = ("Master", "Drums", "Bass", "Other", "Vocals")   # the order the STEMS format fixes
 AUDIO_EXT = (".wav", ".flac", ".mp3", ".m4a", ".aac", ".ogg", ".opus", ".aif", ".aiff", ".wma")
 MAX_UNPACKED = 6 * 1024 ** 3        # bytes
 MAX_FILES = 400
@@ -39,7 +42,25 @@ ROLES = [
 
 def is_archive(name):
     n = name.lower()
-    return n.endswith(ARCHIVE_EXT)
+    return n.endswith(ARCHIVE_EXT) or n.endswith(STEM_EXT)
+
+
+def audio_tracks(path):
+    p = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index",
+                        "-of", "csv=p=0", path], capture_output=True, text=True)
+    return len(p.stdout.split()) if p.returncode == 0 else 0
+
+
+def unpack_stem_file(path, dest):
+    """Split a .stem.mp4 into Master/Drums/Bass/Other/Vocals.flac in `dest`."""
+    if audio_tracks(path) < 5:
+        raise RuntimeError(f"{os.path.basename(path)} isn't a STEMS file (it needs 5 audio tracks).")
+    os.makedirs(dest, exist_ok=True)
+    for k, role in enumerate(NI_TRACKS):
+        p = subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", path, "-map", f"0:a:{k}", "-vn",
+                            os.path.join(dest, f"{role}.flac")], capture_output=True, text=True)
+        if p.returncode != 0:
+            raise RuntimeError(f"Couldn't read track {k} of {os.path.basename(path)}: {p.stderr.strip()[-200:]}")
 
 
 def role_of(filename):
@@ -70,10 +91,14 @@ def unpack(archive, dest):
         for f in files:
             if not os.path.realpath(os.path.join(dirpath, f)).startswith(root + os.sep):
                 raise RuntimeError("The archive tried to write outside its folder.")
-    # One level of nesting: a zip of zips.
+    # One level of nesting: a zip of zips, or of STEMS files.
     for dirpath, _, files in list(os.walk(dest)):
         for f in files:
-            if is_archive(f) and not f.lower().endswith(".gz"):
+            if f.lower().endswith(STEM_EXT):
+                inner = os.path.join(dirpath, f)
+                unpack_stem_file(inner, os.path.join(dirpath, re.sub(r"\.stem\.m(p4|4a)$", "", f, flags=re.I)))
+                os.remove(inner)
+            elif is_archive(f) and not f.lower().endswith(".gz"):
                 inner = os.path.join(dirpath, f)
                 unpack(inner, os.path.splitext(inner)[0])
                 os.remove(inner)
@@ -96,7 +121,7 @@ def songs_in(folder, fallback_name):
     merged = {}
     for d, files in groups.items():
         key = d
-        while key != folder and role_of(os.path.basename(key)) != "other":
+        while key != folder and role_of(os.path.basename(key)) not in ("other", "mix"):
             key = os.path.dirname(key)
         merged.setdefault(key, []).extend(files)
     return [(os.path.basename(d.rstrip(os.sep)) or fallback_name, files) for d, files in merged.items()]
@@ -163,7 +188,10 @@ def prepare(archive, work_dir, cache_dir, name=None, progress=None):
     dest = os.path.join(work_dir, "unpacked")
     shutil.rmtree(dest, ignore_errors=True)
     say(f"Unpacking stems: {name}")
-    unpack(archive, dest)
+    if audio_tracks(archive) >= 5:                     # a STEMS file rather than an archive
+        unpack_stem_file(archive, dest)
+    else:
+        unpack(archive, dest)
     songs = songs_in(dest, name)
     if not songs:
         raise RuntimeError(f"No audio files found in {name}.")

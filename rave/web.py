@@ -95,7 +95,7 @@ def info():
             "stretch": transform.backend(), "max_songs": MAX_SONGS,
             "roformer": separate.roformer_available(), "stemdeck": stemdeck.available(),
             "best": separate.best_available(),
-            "stem_packs": stempack.ARCHIVE_EXT,
+            "stem_packs": stempack.ARCHIVE_EXT + stempack.STEM_EXT,
             "youtube": sources.youtube_enabled(), "spotify_search": sources.spotify_enabled(),
             "styles": [{"key": s.key, "name": s.name, "blurb": s.blurb}
                        for k, s in styles.STYLES.items() if k == s.key]}
@@ -179,7 +179,7 @@ def new_upload(name: str = Form(...), size: int = Form(...)):
     """Start a stem-pack upload. The file then arrives in chunks (PUT), so a large pack gets through a
     proxy that limits the size of one request."""
     if not stempack.is_archive(name):
-        raise HTTPException(400, f"Not a supported archive: {name} (zip, 7z, rar, tar)")
+        raise HTTPException(400, f"Not a supported archive: {name} (zip, 7z, rar, tar, .stem.mp4)")
     if not 0 < size <= MAX_PACK:
         raise HTTPException(400, "A stem pack can be up to 4 GB.")
     uid = uuid.uuid4().hex[:16]

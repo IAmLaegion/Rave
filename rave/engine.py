@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 import numpy as np
 
 from . import analysis as an
-from . import audio, lyrics, mix, separate, transform
+from . import assist, audio, lyrics, mix, separate, transform
 
 ENV_HOP = 441            # vocal envelope resolution: 10 ms
 GAP = 6                  # envelope frames of quiet that count as a breath between lines (60 ms)
@@ -35,6 +35,7 @@ class Options:
     nightcore: float = 0.0          # nightcore speed-up (references measured 1.20x and 1.23x); 0 = off
     spatial: str = ""               # "8d": binaural, voices circling the head (for headphones)
     bgv: float = 0.4                # level of the backing song's own vocal in the gaps between lead lines
+    assist: bool = False            # song minus its official instrumental; only same-master files null
     cache_dir: str = None
 
 
@@ -124,9 +125,12 @@ def make_mashup(paths, out_path, opts=None, progress=None, names=None):
         fkey = separate.file_key(p)
         say(0.02 + 0.5 * (i + 0.2) / n, f"Using the uploaded stems: {name}" if separate.has_pack(cache, fkey)
             else f"Separating vocals: {name} ({sep_method})")
-        vocals, drums, bass, other = separate.separate(
-            y, sep_method, cache, fkey,
-            progress=lambda m, f=0.02 + 0.5 * (i + 0.2) / n: say(f, m))
+        prog = lambda m, f=0.02 + 0.5 * (i + 0.2) / n: say(f, m)
+        got = None
+        if opts.assist and not separate.has_pack(cache, fkey):
+            # Studio stems first: song minus its official instrumental, when that nulls.
+            got = assist.separate(y, _song_name(name), cache, fkey, separate.split_instrumental, prog)
+        vocals, drums, bass, other = got if got else separate.separate(y, sep_method, cache, fkey, progress=prog)
         if lyrics.available():
             say(0.02 + 0.5 * (i + 0.55) / n, f"Reading the lyrics: {name}")
         words = lyrics.transcribe(vocals, cache, f"{fkey}.{sep_method}")
@@ -171,6 +175,14 @@ def make_mashup(paths, out_path, opts=None, progress=None, names=None):
         f.write(report)
     say(1.0, f"Done: {out_path}")
     return report
+
+
+def _song_name(name):
+    """A search-friendly song name: no "(Official Audio)", "[Lyrics]", "ft." credits and the like."""
+    import re
+    n = re.sub(r"[\(\[][^\)\]]*(official|audio|video|lyric|visuali[sz]er|hd|4k|explicit|clean)[^\)\]]*[\)\]]",
+               "", name or "", flags=re.I)
+    return re.sub(r"\s+", " ", n).strip(" -")
 
 
 def default_cache_dir():

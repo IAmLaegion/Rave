@@ -248,7 +248,7 @@ footer { color: var(--dim); font-size: 13px; text-align: center; margin-top: 30p
 
     <div id="pane-stems" hidden>
       <div class="drop" id="dropStems" tabindex="0"><strong>Drop stem packs here</strong>zip, 7z, rar or tar: one song per archive (official stems, multitracks, or an a cappella + instrumental). Rave sorts them into vocals, drums, bass and the rest, and separates only what's missing.</div>
-      <input id="stemFile" type="file" accept=".zip,.7z,.rar,.tar,.gz,.tgz,.bz2,.xz" multiple hidden>
+      <input id="stemFile" type="file" accept=".zip,.7z,.rar,.tar,.gz,.tgz,.bz2,.xz,.mp4,.m4a" multiple hidden>
     </div>
   </section>
 
@@ -419,11 +419,11 @@ $("stemFile").onchange = (e) => { addPacks(e.target.files); e.target.value = "";
 ["dragleave", "drop"].forEach(ev => dropStems.addEventListener(ev, e => { e.preventDefault(); dropStems.classList.remove("over"); }));
 dropStems.addEventListener("drop", e => addPacks(e.dataTransfer.files));
 function addPacks(files) {
-  const ok = info.stem_packs || [".zip", ".7z", ".rar", ".tar", ".gz", ".tgz", ".bz2", ".xz"];
+  const ok = info.stem_packs || [".zip", ".7z", ".rar", ".tar", ".gz", ".tgz", ".bz2", ".xz", ".stem.mp4", ".stem.m4a"];
   for (const f of files) {
-    if (!ok.some(x => f.name.toLowerCase().endsWith(x))) { flash(`${f.name} isn't a zip, 7z, rar or tar.`); continue; }
+    if (!ok.some(x => f.name.toLowerCase().endsWith(x))) { flash(`${f.name} isn't a zip, 7z, rar, tar or .stem.mp4.`); continue; }
     if (lineup.length >= info.max_songs) { flash(`That's the max (${info.max_songs}).`); break; }
-    const t = {kind: "stems", file: f, title: f.name.replace(/\.(zip|7z|rar|tar|gz|tgz|bz2|xz)$/i, "").replace(/\.tar$/i, ""), transpose: "auto"};
+    const t = {kind: "stems", file: f, title: f.name.replace(/\.stem\.m(p4|4a)$/i, "").replace(/\.(zip|7z|rar|tar|gz|tgz|bz2|xz)$/i, "").replace(/\.tar$/i, ""), transpose: "auto"};
     if (!lineup.some(x => key(x) === key(t))) lineup.push(t);
   }
   renderLineup();
